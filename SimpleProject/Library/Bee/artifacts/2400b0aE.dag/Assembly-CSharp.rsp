@@ -347,6 +347,8 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Gofball_Location.cs"
+"Assets/GolfBall_Camera.cs"
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Clubrotate.cs"
 -langversion:9.0
 /deterministic
