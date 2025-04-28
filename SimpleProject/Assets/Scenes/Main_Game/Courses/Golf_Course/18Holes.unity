@@ -877,7 +877,7 @@ GameObject:
   - component: {fileID: 2002650600}
   - component: {fileID: 2002650599}
   m_Layer: 0
-  m_Name: Little Stand to put golfball on
+  m_Name: GolfBallStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
