@@ -13,7 +13,5 @@ public class GolfBall_Camera : MonoBehaviour
 		transform.eulerAngles = new Vector3(0 , 270 , 0);
 
         transform.position = new Vector3(target.position.x*offsetx, target.position.y*offsety, target.position.z*offsetz);
-
-        Debug.Log(transform.position);
     }
 }

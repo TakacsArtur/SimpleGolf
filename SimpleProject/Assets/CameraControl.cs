@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    public GameObject playerCamera, ballCamera;
+    public GameObject playerCamera, ballCamera, golfClub;
     void Start()
     {
        showPlayerCamera(); 
@@ -13,12 +13,15 @@ public class CameraControl : MonoBehaviour
     public void showPlayerCamera(){
         playerCamera.SetActive(true);
         ballCamera.SetActive(false);
+        
+        golfClub.GetComponent<MeshRenderer>().enabled = true;
     }
 
-    public void showGameCamera(){
+    public void showBallCamera(){
         playerCamera.SetActive(false);
         ballCamera.SetActive(true);
+
+        //this is a practical requirement
+        golfClub.GetComponent<MeshRenderer>().enabled = false;
     }
-
-
 }

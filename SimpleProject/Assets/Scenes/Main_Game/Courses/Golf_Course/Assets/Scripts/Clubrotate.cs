@@ -12,22 +12,17 @@ public class Clubrotate : MonoBehaviour
     public int rotationMultiplier = 1;
 
     public float maxRotationAngle, minRotationAngle;
-    private Rigidbody rigidbody;
+    private Rigidbody rb;
 
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        rigidbody.maxAngularVelocity = float.MaxValue;
-        
-        Debug.Log("Current rotation " + transform.eulerAngles.z);
-
-        
-            rigidbody.AddTorque(rotationMultiplier * Input.GetAxis("Vertical")* -1 *Vector3.forward);
-        
+        rb.maxAngularVelocity = float.MaxValue;
+        rb.AddTorque(rotationMultiplier * Input.GetAxis("Vertical")* -1 *Vector3.forward);        
     }
 }

@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 470621379}
   - component: {fileID: 470621380}
   m_Layer: 0
-  m_Name: Golf ball
+  m_Name: GolfBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,6 +268,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b233aa0372b5af551a2b5b4a6408ac6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  golfClub: {fileID: 674682355}
+  eventSystem: {fileID: 528449859}
+--- !u!1 &528449859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 528449861}
+  - component: {fileID: 528449860}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &528449860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528449859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728d77afebb4055999a06f93504aa8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 963194225}
+  ballCamera: {fileID: 1734395779}
+  golfClub: {fileID: 1323491366}
+--- !u!4 &528449861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528449859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.8201523, y: -4.882757, z: -8.75938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &623185065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -318,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ce58fdc5c0edb3da18976bb8cf2bfd5f, type: 3}
       propertyPath: m_Name
-      value: golf_club
+      value: GolfClub
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -339,7 +388,7 @@ GameObject:
   - component: {fileID: 674682356}
   - component: {fileID: 674682361}
   m_Layer: 0
-  m_Name: Rotation_axis
+  m_Name: RotationAxis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -768,7 +817,7 @@ GameObject:
   - component: {fileID: 1734395781}
   - component: {fileID: 1734395783}
   m_Layer: 0
-  m_Name: Golf_ball_camera
+  m_Name: GolfBallCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -980,3 +1029,4 @@ SceneRoots:
   - {fileID: 2002650602}
   - {fileID: 674682360}
   - {fileID: 623185065}
+  - {fileID: 528449861}
