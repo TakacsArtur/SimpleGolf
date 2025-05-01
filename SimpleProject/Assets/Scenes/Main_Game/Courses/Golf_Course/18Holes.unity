@@ -335,7 +335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce58fdc5c0edb3da18976bb8cf2bfd5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -7.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce58fdc5c0edb3da18976bb8cf2bfd5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -407,6 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationMultiplier: 500
+  tankMultiplier: 1
   maxRotationAngle: 130
   minRotationAngle: 130
 --- !u!23 &674682358
@@ -416,7 +417,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674682355}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -711,6 +712,7 @@ GameObject:
   - component: {fileID: 1524029460}
   - component: {fileID: 1524029459}
   - component: {fileID: 1524029458}
+  - component: {fileID: 1524029462}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -797,13 +799,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524029457}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.4489546, y: -5.8548613, z: -10.716928}
   m_LocalScale: {x: 156.72, y: 1, z: 91.879}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1524029462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524029457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1969ab0cf4bd9b90b842cd780df556db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAxis: {fileID: 674682355}
 --- !u!1 &1734395779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,8 +1040,8 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 1734395780}
   - {fileID: 470621378}
-  - {fileID: 1524029461}
   - {fileID: 2002650602}
   - {fileID: 674682360}
   - {fileID: 623185065}
+  - {fileID: 1524029461}
   - {fileID: 528449861}

@@ -14,8 +14,6 @@ public class Gofball_Location : MonoBehaviour
 
     void FixedUpdate()
     {
-        
-        Debug.Log(speed);
         var currentLocation = transform.position;
         var vectorSpeed = currentLocation - cmpLocation;
         //ultimately movement in any direction is as good as in any other

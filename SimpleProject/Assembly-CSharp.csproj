@@ -67,7 +67,9 @@
     <Compile Include="Assets/CameraControl.cs" />
     <Compile Include="Assets/Gofball_Location.cs" />
     <Compile Include="Assets/GolfBall_Camera.cs" />
+    <Compile Include="Assets/RotateFloor.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Clubrotate.cs" />
+    <Compile Include="Assets/Courserotate.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
