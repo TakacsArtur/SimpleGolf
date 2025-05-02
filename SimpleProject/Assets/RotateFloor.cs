@@ -8,6 +8,6 @@ public class RotateFloor : MonoBehaviour
     void FixedUpdate()
     {
         Debug.Log(Input.GetAxis("Horizontal"));
-        transform.RotateAround(rotationAxis.transform.position, new Vector3(0, Input.GetAxis("Horizontal")*100, 0), Time.deltaTime*70);
+        transform.RotateAround(rotationAxis.transform.position, new Vector3(0, -1*Input.GetAxis("Horizontal")*100, 0), Time.deltaTime*10);
     }
 }
