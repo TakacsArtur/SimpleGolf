@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CameraControl : MonoBehaviour
@@ -14,7 +15,7 @@ public class CameraControl : MonoBehaviour
         playerCamera.SetActive(true);
         ballCamera.SetActive(false);
         
-        golfClub.GetComponent<MeshRenderer>().enabled = true;
+        golfClub.SetActive(true);
     }
 
     public void showBallCamera(){
@@ -22,6 +23,6 @@ public class CameraControl : MonoBehaviour
         ballCamera.SetActive(true);
 
         //this is a practical requirement
-        golfClub.GetComponent<MeshRenderer>().enabled = false;
+        golfClub.SetActive(false);
     }
 }
