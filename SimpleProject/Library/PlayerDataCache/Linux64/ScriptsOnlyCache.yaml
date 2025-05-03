@@ -1,7 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraControl
     - Clubrotate
+    - Gofball_Location
+    - GolfBall_Camera
+    - RotateFloor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -30,6 +34,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -38,9 +46,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 24108}
+      Script: {instanceID: 18956}
+    - Class: 114
+      Script: {instanceID: 19678}
+    - Class: 114
+      Script: {instanceID: 20512}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21296}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -373,6 +393,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 689072a86eec1f4e8d6248c8ae8d4b9f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Clubrotate
+  - hash:
+      serializedVersion: 2
       Hash: 4718916586b3818eb69bf65df61f0f3a
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -455,6 +481,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b4f942772631a4fcccdc3e726c84b2e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraControl
   - hash:
       serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
@@ -589,6 +621,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 841180837d2505fab409693b2847df0a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GolfBall_Camera
+  - hash:
+      serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -599,6 +637,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 617d4bb2fa79551897b5423d696767ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gofball_Location
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -659,6 +703,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 6d7d02f6f76ef6b22c7bc2c304515f5a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RotateFloor
   - hash:
       serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
@@ -799,6 +849,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 25e6175c726e351422516351acd21061
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Courserotate
+  - hash:
+      serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -869,12 +925,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 934c58425673f88e362963388dc24c4c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Clubrotate
   platform: 24
   scenePathNames:
   - Assets/Scenes/Main_Game/Courses/Golf_Course/18Holes.unity

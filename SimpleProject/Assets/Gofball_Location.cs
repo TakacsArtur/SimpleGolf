@@ -19,7 +19,7 @@ public class Gofball_Location : MonoBehaviour
         //ultimately movement in any direction is as good as in any other
         speed = vectorSpeed.x + vectorSpeed.y + vectorSpeed.z;
 
-        if(ballHit && Mathf.Abs(speed) < 0.0056){
+        if(ballHit && Mathf.Abs(speed) < 0.0030){
             ballHit = false;
             StartCoroutine(smoothChangeToPlayerCamera());
         }
@@ -28,7 +28,7 @@ public class Gofball_Location : MonoBehaviour
     }
 
     private IEnumerator smoothChangeToPlayerCamera(){
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         eventSystem.GetComponent<CameraControl>().showPlayerCamera();
     }
 
