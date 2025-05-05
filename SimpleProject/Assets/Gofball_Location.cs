@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -18,24 +19,29 @@ public class Gofball_Location : MonoBehaviour
         var vectorSpeed = currentLocation - cmpLocation;
         //ultimately movement in any direction is as good as in any other
         speed = vectorSpeed.x + vectorSpeed.y + vectorSpeed.z;
-
-        if(ballHit && Mathf.Abs(speed) < 0.0030){
+        if(ballHit && Mathf.Abs(speed) < 0.0060){
             ballHit = false;
             StartCoroutine(smoothChangeToPlayerCamera());
         }
-
         cmpLocation = currentLocation;
     }
 
     private IEnumerator smoothChangeToPlayerCamera(){
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
+        eventSystem.GetComponent<Gof_Teleport>().TeleportPlayer();
         eventSystem.GetComponent<CameraControl>().showPlayerCamera();
+       
     }
 
     public void BallHit()
     {
         eventSystem.GetComponent<CameraControl>().showBallCamera();
-        ballHit = true;
+        StartCoroutine(smoothBallHit());
         GetComponent<Rigidbody>().AddForce(new Vector3(30, 30, 10));
+    }
+    //basically the ball gets hit too slowly for the camera change not to trigger
+    private IEnumerator smoothBallHit(){
+        yield return new WaitForSeconds((float)0.5);
+        ballHit = true;
     }
 }
