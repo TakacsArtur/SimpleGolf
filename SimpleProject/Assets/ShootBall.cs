@@ -17,7 +17,7 @@ public class ShootBall : MonoBehaviour
 
      void OnTriggerEnter()
     {   
-    
+        golfBall.GetComponent<Gofball_Location>().BallHit();
         rb.AddForce(golfBall.transform.forward.x * golfForcexOffset , golfBall.transform.forward.y + golfForceyOffset, golfBall.transform.forward.z * golfForcezOffset);
     }
 }

@@ -32,15 +32,10 @@ public class Gofball_Location : MonoBehaviour
         eventSystem.GetComponent<CameraControl>().showPlayerCamera();
     }
 
-    void OnCollisionEnter(Collision collision)
+    public void BallHit()
     {
-        if(collision.gameObject.name == golfClub.name){
-            eventSystem.GetComponent<CameraControl>().showBallCamera();
-            ballHit = true;
-            
-        }
-        if(collision.gameObject.name == golfClub.name){
-            GetComponent<Rigidbody>().AddForce(new Vector3(30, 30, 10));
-        }
+        eventSystem.GetComponent<CameraControl>().showBallCamera();
+        ballHit = true;
+        GetComponent<Rigidbody>().AddForce(new Vector3(30, 30, 10));
     }
 }

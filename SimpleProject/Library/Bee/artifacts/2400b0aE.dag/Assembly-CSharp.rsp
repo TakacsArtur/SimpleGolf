@@ -355,6 +355,7 @@
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CameraControl.cs"
 "Assets/Courserotate.cs"
+"Assets/Gof_Teleport.cs"
 "Assets/Gofball_Location.cs"
 "Assets/GolfBall_Camera.cs"
 "Assets/GolfSet_Storage.cs"
