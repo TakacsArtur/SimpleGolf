@@ -357,9 +357,11 @@
 "Assets/Courserotate.cs"
 "Assets/Gofball_Location.cs"
 "Assets/GolfBall_Camera.cs"
+"Assets/GolfSet_Storage.cs"
 "Assets/GolfTeleport.cs"
 "Assets/RotateFloor.cs"
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Clubrotate.cs"
+"Assets/ShootBall.cs"
 -langversion:9.0
 /deterministic
 /optimize+

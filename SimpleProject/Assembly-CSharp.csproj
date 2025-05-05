@@ -65,8 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/CameraControl.cs" />
+    <Compile Include="Assets/GolfSet_Storage.cs" />
     <Compile Include="Assets/Gofball_Location.cs" />
     <Compile Include="Assets/GolfBall_Camera.cs" />
+    <Compile Include="Assets/ShootBall.cs" />
     <Compile Include="Assets/RotateFloor.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Clubrotate.cs" />
     <Compile Include="Assets/GolfTeleport.cs" />

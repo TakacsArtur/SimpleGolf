@@ -37,6 +37,10 @@ public class Gofball_Location : MonoBehaviour
         if(collision.gameObject.name == golfClub.name){
             eventSystem.GetComponent<CameraControl>().showBallCamera();
             ballHit = true;
+            
+        }
+        if(collision.gameObject.name == golfClub.name){
+            GetComponent<Rigidbody>().AddForce(new Vector3(30, 30, 10));
         }
     }
 }

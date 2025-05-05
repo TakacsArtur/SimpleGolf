@@ -15,7 +15,7 @@ public class CameraControl : MonoBehaviour
         playerCamera.SetActive(true);
         ballCamera.SetActive(false);
         
-        golfClub.SetActive(true);
+        //golfClub.SetActive(true);
     }
 
     public void showBallCamera(){
@@ -23,6 +23,6 @@ public class CameraControl : MonoBehaviour
         ballCamera.SetActive(true);
 
         //this is a practical requirement
-        golfClub.SetActive(false);
+        //golfClub.SetActive(false);
     }
 }
