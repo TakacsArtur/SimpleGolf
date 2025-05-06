@@ -678,6 +678,8 @@ MonoBehaviour:
   rotationMultiplier: 25
   rotationAxis: {fileID: 612255811}
   speedmultiplier: 1000
+  minRotation: -170
+  maxRotation: 0
 --- !u!65 &889259676
 BoxCollider:
   m_ObjectHideFlags: 0
