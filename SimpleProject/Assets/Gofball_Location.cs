@@ -20,17 +20,24 @@ public class Gofball_Location : MonoBehaviour
         //ultimately movement in any direction is as good as in any other
         speed = vectorSpeed.x + vectorSpeed.y + vectorSpeed.z;
         if(ballHit && Mathf.Abs(speed) < 0.0060){
-            ballHit = false;
-            StartCoroutine(smoothChangeToPlayerCamera());
+            BallStopped();
         }
         cmpLocation = currentLocation;
     }
+
 
     private IEnumerator smoothChangeToPlayerCamera(){
         yield return new WaitForSeconds(1);
         eventSystem.GetComponent<Gof_Teleport>().TeleportPlayer();
         eventSystem.GetComponent<CameraControl>().showPlayerCamera();
        
+    }
+
+    private void BallStopped(){
+        ballHit = false;
+        //ball is force stopped so that teleport can happen accurately
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        StartCoroutine(smoothChangeToPlayerCamera());
     }
 
     public void BallHit()
