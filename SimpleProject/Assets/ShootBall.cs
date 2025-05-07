@@ -24,14 +24,13 @@ public class ShootBall : MonoBehaviour
     void LaunchBall(batType currentBat){
         
         if (currentBat == batType.putter){
-            golfForcexOffset = 65;
-            golfForceyOffset = 3;
-            golfForcezOffset = 65;
+            golfForcexOffset = 5;
+            golfForceyOffset = 5;
+            golfForcezOffset = 5;
         }
 
         Debug.Log("Current heading:" + directionProvider.transform.forward);
-
-        rb.AddForce(directionProvider.transform.forward.x * golfForcexOffset , directionProvider.transform.forward.y *golfForceyOffset, directionProvider.transform.forward.z * golfForcezOffset);
+        rb.AddForce(directionProvider.transform.forward.x * golfForcexOffset , directionProvider.transform.forward.y +golfForceyOffset, directionProvider.transform.forward.z * golfForcezOffset, ForceMode.Impulse);
     }
 
 }
