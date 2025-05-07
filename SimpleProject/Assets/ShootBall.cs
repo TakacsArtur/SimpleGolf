@@ -1,14 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Callbacks;
 using UnityEngine;
-using UnityEngine.Experimental.AI;
 
 public class ShootBall : MonoBehaviour
 {
     public GameObject golfBall;
-    public float golfForcexOffset, golfForceyOffset, golfForcezOffset;
+    private float golfForcexOffset, golfForceyOffset, golfForcezOffset;
+
+    public enum batType {theBigDriver, putter}
+
+    public batType currentBat;
     Rigidbody rb;
     void Start()
     {
@@ -18,8 +17,15 @@ public class ShootBall : MonoBehaviour
      void OnTriggerEnter()
     {   
         golfBall.GetComponent<Gofball_Location>().BallHit();
-        rb.AddForce(golfBall.transform.forward.x * golfForcexOffset , golfBall.transform.forward.y + golfForceyOffset, golfBall.transform.forward.z * golfForcezOffset);
+        LaunchBall(currentBat);
     }
 
+    void LaunchBall(batType currentBat){
+        
+        if (currentBat == batType.putter)
+            golfForcexOffset
+
+        rb.AddForce(golfBall.transform.forward.x * golfForcexOffset , golfBall.transform.forward.y + golfForceyOffset, golfBall.transform.forward.z * golfForcezOffset);
+    }
 
 }
