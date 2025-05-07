@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ShootBall : MonoBehaviour
 {
-    public GameObject golfBall;
+    public GameObject golfBall, directionProvider;
     private float golfForcexOffset, golfForceyOffset, golfForcezOffset;
 
     public enum batType {theBigDriver, putter}
@@ -17,15 +17,21 @@ public class ShootBall : MonoBehaviour
      void OnTriggerEnter()
     {   
         golfBall.GetComponent<Gofball_Location>().BallHit();
+        Debug.Log("Ball was hit");
         LaunchBall(currentBat);
     }
 
     void LaunchBall(batType currentBat){
         
-        if (currentBat == batType.putter)
-            golfForcexOffset
+        if (currentBat == batType.putter){
+            golfForcexOffset = 65;
+            golfForceyOffset = 3;
+            golfForcezOffset = 65;
+        }
 
-        rb.AddForce(golfBall.transform.forward.x * golfForcexOffset , golfBall.transform.forward.y + golfForceyOffset, golfBall.transform.forward.z * golfForcezOffset);
+        Debug.Log("Current heading:" + directionProvider.transform.forward);
+
+        rb.AddForce(directionProvider.transform.forward.x * golfForcexOffset , directionProvider.transform.forward.y *golfForceyOffset, directionProvider.transform.forward.z * golfForcezOffset);
     }
 
 }
