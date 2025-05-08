@@ -64,16 +64,16 @@
     <Analyzer Include="/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/CameraControl.cs" />
-    <Compile Include="Assets/GolfSet_Storage.cs" />
-    <Compile Include="Assets/Gofball_Location.cs" />
-    <Compile Include="Assets/GolfBall_Camera.cs" />
-    <Compile Include="Assets/ShootBall.cs" />
-    <Compile Include="Assets/RotateFloor.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/ShootBall.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Gofball_Location.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/RotateFloor.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Clubrotate.cs" />
-    <Compile Include="Assets/GolfTeleport.cs" />
-    <Compile Include="Assets/Gof_Teleport.cs" />
-    <Compile Include="Assets/Courserotate.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfBall_Camera.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Courserotate.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfSet_Storage.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Gof_Teleport.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfTeleport.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/CameraControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
