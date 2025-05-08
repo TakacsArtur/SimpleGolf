@@ -17,9 +17,12 @@ public class ShootBall : MonoBehaviour
 
      void OnTriggerEnter()
     {   
-        golfBall.GetComponent<Gofball_Location>().BallHit();
-        Debug.Log("Ball was hit");
-        LaunchBall(currentBat);
+        if (Input.GetButton("Fire1")){
+            golfBall.GetComponent<Gofball_Location>().BallHit();
+            Debug.Log("Ball was hit");
+            LaunchBall(currentBat);
+        }
+        
     }
 
     void LaunchBall(batType currentBat){
@@ -47,11 +50,13 @@ public class ShootBall : MonoBehaviour
         Debug.Log("Current heading:" + directionProvider.transform.forward);
         Debug.Log("Selected battype" + currentBat);
         rb.AddForce(directionProvider.transform.forward.x * golfForcexOffset , directionProvider.transform.forward.y + golfForceyOffset, directionProvider.transform.forward.z * golfForcezOffset, ForceMode.Impulse);
+        GetComponent<Clubrotate>().resetIgnoreInput();
     }
 
     public void SetCurrentBat(batType bat){
         currentBat = bat;
     }
+
 
     public batType GetCurrentBat(){
         return currentBat;

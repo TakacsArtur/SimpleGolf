@@ -706,7 +706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationMultiplier: 25
   rotationAxis: {fileID: 612255811}
-  speedmultiplier: 500
+  speedmultiplier: 600
 --- !u!4 &889259677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ce58fdc5c0edb3da18976bb8cf2bfd5f, type: 3}
