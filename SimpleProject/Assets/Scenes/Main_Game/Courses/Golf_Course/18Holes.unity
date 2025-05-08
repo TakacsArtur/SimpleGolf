@@ -706,7 +706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationMultiplier: 25
   rotationAxis: {fileID: 612255811}
-  speedmultiplier: 1000
+  speedmultiplier: 500
 --- !u!4 &889259677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ce58fdc5c0edb3da18976bb8cf2bfd5f, type: 3}
@@ -727,8 +727,8 @@ MonoBehaviour:
   golfBall: {fileID: 470621374}
   directionProvider: {fileID: 65638379}
   currentBat: 0
---- !u!136 &889259679
-CapsuleCollider:
+--- !u!65 &889259679
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -745,11 +745,9 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.45748013
-  m_Height: 1.8685138
-  m_Direction: 0
-  m_Center: {x: -0.8841548, y: -0.0068006776, z: -0.0027282496}
+  serializedVersion: 3
+  m_Size: {x: 2.2694466, y: 4.505451, z: 0.15218431}
+  m_Center: {x: -0.637334, y: 1.196183, z: 0.16978133}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
