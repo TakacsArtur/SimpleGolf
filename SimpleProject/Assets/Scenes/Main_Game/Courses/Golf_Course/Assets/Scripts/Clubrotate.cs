@@ -5,7 +5,7 @@ public class Clubrotate : MonoBehaviour
 {
     public int rotationMultiplier = 1;
     public GameObject rotationAxis;
-    public float speedmultiplier = 500;
+    public float speedmultiplier = 25;
 
     // Update is called once per frame
     void FixedUpdate()

@@ -47,7 +47,6 @@ public class Gofball_Location : MonoBehaviour
         Debug.Log("Ball hit");
         eventSystem.GetComponent<CameraControl>().showBallCamera();
         StartCoroutine(smoothBallHit());
-        GetComponent<Rigidbody>().AddForce(new Vector3(30, 30, 10));
     }
     //basically the ball gets hit too slowly for the camera change not to trigger
     private IEnumerator smoothBallHit(){

@@ -1,27 +1,30 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GolfBall_Camera : MonoBehaviour
 {
-    public Transform target, rotationTarget;
+    public Transform target, rotationTarget, golfClub;
     private Vector3 startPosition, secondPosition, direction;
     private bool movementVectoralculated = false;
 
-    public float heightoffset;
+    public float heightoffsetPutter, heightoffsetBigDriver;
 
     void Start(){
         startPosition = target.transform.position;
     }
     void Update()
     {        
-
+        var bat = golfClub.GetComponent<ShootBall>().GetCurrentBat();
         transform.RotateAround(rotationTarget.transform.position, new Vector3(0, Input.GetAxis("Horizontal"), 0), Time.deltaTime*10);
 
         if(movementVectoralculated){
-            transform.position = new Vector3(target.transform.position.x - direction.x, target.transform.position.y+heightoffset, target.transform.position.z - direction.z);
+            float realOffset = heightoffsetPutter;
+            if(bat == ShootBall.batType.putter)
+                realOffset = heightoffsetPutter;
+            if(bat == ShootBall.batType.theBigDriver)
+                realOffset = heightoffsetBigDriver;
+
+            transform.position = new Vector3(target.transform.position.x - direction.x, target.transform.position.y+realOffset, target.transform.position.z - direction.z);
         }
     }
 
@@ -32,7 +35,7 @@ public class GolfBall_Camera : MonoBehaviour
     }
 
     IEnumerator waitForBall(){
-        yield return new WaitForSeconds((float)0.3);
+        yield return new WaitForSeconds((float)0.1);
         secondPosition = target.transform.position;
 
         direction = secondPosition - startPosition;
