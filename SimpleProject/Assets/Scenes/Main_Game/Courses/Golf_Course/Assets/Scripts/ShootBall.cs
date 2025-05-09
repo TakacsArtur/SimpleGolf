@@ -1,9 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class ShootBall : MonoBehaviour
 {
-    public GameObject golfBall, directionProvider;
+    public GameObject golfBall, directionProvider, Eventsystem;
     private float golfForcexOffset, golfForceyOffset, golfForcezOffset;
 
     public enum batType {theBigDriver, putter, medDriver}
@@ -25,7 +26,8 @@ public class ShootBall : MonoBehaviour
         
     }
 
-    void LaunchBall(batType currentBat){
+    void LaunchBall(batType currentBat)
+    {
         
         if (currentBat == batType.putter){
             golfForcexOffset = 3;
@@ -50,15 +52,18 @@ public class ShootBall : MonoBehaviour
         Debug.Log("Current heading:" + directionProvider.transform.forward);
         Debug.Log("Selected battype" + currentBat);
         rb.AddForce(directionProvider.transform.forward.x * golfForcexOffset , directionProvider.transform.forward.y + golfForceyOffset, directionProvider.transform.forward.z * golfForcezOffset, ForceMode.Impulse);
+        Eventsystem.GetComponent<ScreCounter>().ballHit();
         GetComponent<Clubrotate>().resetIgnoreInput();
     }
 
-    public void SetCurrentBat(batType bat){
+    public void SetCurrentBat(batType bat)
+    {
         currentBat = bat;
     }
 
 
-    public batType GetCurrentBat(){
+    public batType GetCurrentBat()
+    {
         return currentBat;
     }
 
