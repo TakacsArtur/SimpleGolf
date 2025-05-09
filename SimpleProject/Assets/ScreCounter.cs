@@ -1,14 +1,16 @@
+using System;
 using TMPro;
 using UnityEngine;
 
 public class ScreCounter : MonoBehaviour
 {
-    public GameObject ScoreDisplay;
-    double score = 0;
-
+    public GameObject ScoreDisplay, HoleName;
+    int score = 0;
+    public int par;
+    public String holename;
     public void Start()
     {
-        ScoreDisplay.GetComponent<TMP_Text>().text = "Score: " + score;
+        updateDisplay(score, par);
     }
     public void ballHit()
     {
@@ -20,8 +22,14 @@ public class ScreCounter : MonoBehaviour
             GetComponent<GameControl>().LoseGame();
         }
 
-        ScoreDisplay.GetComponent<TMP_Text>().text = "Score: " + score;
+        updateDisplay(score, par);
     }
+
+    private void updateDisplay(int score, int par){
+        ScoreDisplay.GetComponent<TMP_Text>().text = "Strokes: " + score + " Par: " + par;
+        HoleName.GetComponent<TMP_Text>().text = holename;
+
+    }   
 
     void addNormalScore()
     {
