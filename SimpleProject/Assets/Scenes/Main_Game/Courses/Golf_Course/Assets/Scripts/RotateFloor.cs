@@ -1,0 +1,10 @@
+using UnityEngine;
+
+public class RotateFloor : MonoBehaviour
+{
+    public GameObject axis;
+    void FixedUpdate()
+    {
+        transform.RotateAround(axis.transform.position, new Vector3(0, Input.GetAxis("Horizontal"), 0), Time.deltaTime*10);
+    }
+}

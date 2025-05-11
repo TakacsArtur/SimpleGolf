@@ -1,0 +1,207 @@
+{ "pid": 307057, "tid": 42949672960, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432895774, "dur": 27971, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432923747, "dur": 98932, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432923762, "dur": 74, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432923844, "dur": 11, "ph": "X", "name": "ProcessMessages 63", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432923857, "dur": 2381, "ph": "X", "name": "ReadAsync 63", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432926284, "dur": 15, "ph": "X", "name": "ProcessMessages 10827", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432926301, "dur": 523, "ph": "X", "name": "ReadAsync 10827", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432926832, "dur": 6, "ph": "X", "name": "ProcessMessages 8336", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432926840, "dur": 162, "ph": "X", "name": "ReadAsync 8336", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927009, "dur": 2, "ph": "X", "name": "ProcessMessages 2779", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927012, "dur": 446, "ph": "X", "name": "ReadAsync 2779", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927468, "dur": 6, "ph": "X", "name": "ProcessMessages 7929", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927476, "dur": 206, "ph": "X", "name": "ReadAsync 7929", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927686, "dur": 4, "ph": "X", "name": "ProcessMessages 2578", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927701, "dur": 205, "ph": "X", "name": "ReadAsync 2578", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927913, "dur": 2, "ph": "X", "name": "ProcessMessages 2493", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432927917, "dur": 271, "ph": "X", "name": "ReadAsync 2493", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928191, "dur": 23, "ph": "X", "name": "ProcessMessages 3719", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928216, "dur": 345, "ph": "X", "name": "ReadAsync 3719", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928563, "dur": 4, "ph": "X", "name": "ProcessMessages 4509", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928569, "dur": 90, "ph": "X", "name": "ReadAsync 4509", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928667, "dur": 25, "ph": "X", "name": "ProcessMessages 1662", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928694, "dur": 210, "ph": "X", "name": "ReadAsync 1662", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928934, "dur": 4, "ph": "X", "name": "ProcessMessages 2866", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432928940, "dur": 185, "ph": "X", "name": "ReadAsync 2866", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432929128, "dur": 1, "ph": "X", "name": "ProcessMessages 1559", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432929131, "dur": 2092, "ph": "X", "name": "ReadAsync 1559", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931250, "dur": 3, "ph": "X", "name": "ProcessMessages 144", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931254, "dur": 184, "ph": "X", "name": "ReadAsync 144", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931456, "dur": 2, "ph": "X", "name": "ProcessMessages 304", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931460, "dur": 84, "ph": "X", "name": "ReadAsync 304", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931547, "dur": 3, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931551, "dur": 58, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931614, "dur": 1, "ph": "X", "name": "ProcessMessages 80", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931617, "dur": 66, "ph": "X", "name": "ReadAsync 80", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931686, "dur": 3, "ph": "X", "name": "ProcessMessages 156", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931691, "dur": 63, "ph": "X", "name": "ReadAsync 156", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931757, "dur": 2, "ph": "X", "name": "ProcessMessages 164", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931765, "dur": 63, "ph": "X", "name": "ReadAsync 164", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931832, "dur": 2, "ph": "X", "name": "ProcessMessages 84", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931835, "dur": 57, "ph": "X", "name": "ReadAsync 84", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931895, "dur": 2, "ph": "X", "name": "ProcessMessages 116", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432931899, "dur": 1267, "ph": "X", "name": "ReadAsync 116", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432933173, "dur": 612, "ph": "X", "name": "ProcessMessages 1404", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432933789, "dur": 421, "ph": "X", "name": "ReadAsync 1404", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432934214, "dur": 22, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432934237, "dur": 717, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432934958, "dur": 6, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432934979, "dur": 3914, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432938915, "dur": 18, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432938935, "dur": 810, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432939748, "dur": 17, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962432939767, "dur": 79750, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962433019543, "dur": 13, "ph": "X", "name": "ProcessMessages 494", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962433019561, "dur": 318, "ph": "X", "name": "ReadAsync 494", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962433019884, "dur": 8, "ph": "X", "name": "ProcessMessages 82", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962433019894, "dur": 360, "ph": "X", "name": "ReadAsync 82", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962433020258, "dur": 1, "ph": "X", "name": "ProcessMessages 25", "args": {} },
+{ "pid": 307057, "tid": 42949672960, "ts": 1746962433020261, "dur": 2413, "ph": "X", "name": "ReadAsync 25", "args": {} },
+{ "pid": 307057, "tid": 10077, "ts": 1746962433023451, "dur": 263, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 307057, "tid": 38654705664, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 307057, "tid": 38654705664, "ts": 1746962432871021, "dur": 151863, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 307057, "tid": 38654705664, "ts": 1746962432871163, "dur": 24183, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 307057, "tid": 38654705664, "ts": 1746962433022887, "dur": 218, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 307057, "tid": 10077, "ts": 1746962433023718, "dur": 14, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 307057, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 307057, "tid": 1, "ts": 1746962432840048, "dur": 1733, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 307057, "tid": 1, "ts": 1746962432841787, "dur": 28399, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 307057, "tid": 1, "ts": 1746962432870188, "dur": 812, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 307057, "tid": 10077, "ts": 1746962433023736, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1746962432924180, "dur":1137, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746962432925366, "dur":409, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746962432925868, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1746962432926055, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1746962432926673, "dur":172, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746962432926878, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746962432927189, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746962432927250, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746962432927559, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746962432928378, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1746962432929272, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1746962432925794, "dur":3868, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746962432929678, "dur":90815, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746962433020647, "dur":609, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1746962432925445, "dur":4274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746962432929721, "dur":1891, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746962432931646, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Linux64/Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746962432931962, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746962432932055, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746962432932154, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746962432932269, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746962432932467, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746962432932809, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746962432931645, "dur":1408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746962432933424, "dur":86265, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746962433020246, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1746962432925490, "dur":4281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746962432929774, "dur":767, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746962432930541, "dur":1161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746962432931731, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746962432931709, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746962432931902, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746962432932595, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1746962432934706, "dur":85793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746962432925495, "dur":4330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746962432929827, "dur":791, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746962432930619, "dur":997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746962432931676, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746962432932059, "dur":166, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746962432933405, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1746962432933629, "dur":86883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746962432925527, "dur":4335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746962432929864, "dur":587, "ph":"X", "name": "File",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746962432929864, "dur":791, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746962432930656, "dur":1074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746962432931735, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746962432931732, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746962432932044, "dur":129, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746962432932489, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1746962432933484, "dur":87019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746962432925583, "dur":4354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746962432929953, "dur":619, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746962432930573, "dur":1046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746962432931638, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746962432931705, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746962432931704, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746962432931824, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746962432932069, "dur":173, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1746962432932425, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1746962432932963, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746962432932963, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746962432933256, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746962432933661, "dur":86883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746962432925746, "dur":4353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746962432930102, "dur":413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746962432930516, "dur":1100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746962432931646, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1746962432931732, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746962432931732, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746962432931819, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746962432932032, "dur":122, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746962432932162, "dur":105, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746962432932855, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1746962432933649, "dur":86856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746962432925742, "dur":4275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746962432930042, "dur":593, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746962432930635, "dur":1102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746962432931757, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746962432931753, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746962432931902, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746962432932059, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746962432932375, "dur":7690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1746962432940067, "dur":80423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432925747, "dur":4377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432930126, "dur":497, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432930624, "dur":991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432931675, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432931823, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432931947, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746962432932057, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746962432932152, "dur":81, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746962432932307, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1746962432935529, "dur":84963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746962432925746, "dur":4362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746962432930110, "dur":445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746962432930555, "dur":1174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746962432931753, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746962432931733, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746962432931902, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746962432932050, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746962432932140, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746962432932775, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1746962432933608, "dur":86911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746962432925754, "dur":4386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746962432930140, "dur":1616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746962432931763, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746962432931760, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746962432931893, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746962432932078, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746962432932170, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746962432932307, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1746962432932868, "dur":432, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746962432933375, "dur":87131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746962432925752, "dur":4382, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746962432930135, "dur":1597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746962432931757, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746962432931736, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746962432931893, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746962432932044, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746962432932311, "dur":7028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1746962432939343, "dur":81179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746962432925920, "dur":4225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746962432930146, "dur":1472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746962432931629, "dur":127, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746962432931764, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746962432931764, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746962432931824, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746962432932047, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746962432932142, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746962432933112, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/UI_test_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1746962432933463, "dur":87032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746962433022604, "dur":207, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 307057, "tid": 10077, "ts": 1746962433023828, "dur": 99940, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 307057, "tid": 10077, "ts": 1746962433123810, "dur": 489, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 307057, "tid": 10077, "ts": 1746962433023446, "dur": 100929, "ph": "X", "name": "Write chrome-trace events", "args": {} },
