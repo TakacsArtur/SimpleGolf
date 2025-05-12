@@ -19,7 +19,7 @@ public class Gofball_Location : MonoBehaviour
         var vectorSpeed = currentLocation - cmpLocation;
         //ultimately movement in any direction is as good as in any other
         speed = vectorSpeed.x + vectorSpeed.y + vectorSpeed.z;
-        if(ballHit && Mathf.Abs(speed) < 0.0010){
+        if(ballHit && Mathf.Abs(speed) < 0.0001){
             Debug.Log("Ball too slow, now stopped");
             BallStopped();
         }
