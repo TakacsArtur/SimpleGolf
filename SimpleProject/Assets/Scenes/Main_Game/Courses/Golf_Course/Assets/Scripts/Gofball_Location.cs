@@ -1,11 +1,11 @@
-using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Gofball_Location : MonoBehaviour
 {
     public GameObject golfClub, eventSystem;
-    private bool ballHit = false;
+    private bool ballHit = false, alreadyWaiting = false; 
     float speed = 0;
     Vector3 cmpLocation;
     void Start()
@@ -19,11 +19,23 @@ public class Gofball_Location : MonoBehaviour
         var vectorSpeed = currentLocation - cmpLocation;
         //ultimately movement in any direction is as good as in any other
         speed = vectorSpeed.x + vectorSpeed.y + vectorSpeed.z;
-        if(ballHit && Mathf.Abs(speed) < 0.0001){
-            Debug.Log("Ball too slow, now stopped");
-            BallStopped();
+        Debug.Log(speed);
+        if(ballHit && Mathf.Abs(speed) < 0.0003 && !alreadyWaiting){
+            //we have to wait, to see if the ball changes direction
+            alreadyWaiting = true;
+            StartCoroutine(WaitAndSeeIfBallChangesDirection());
         }
         cmpLocation = currentLocation;
+    }
+
+    IEnumerator WaitAndSeeIfBallChangesDirection(){
+        Debug.Log("Waiting and seeing");
+        GetComponent<Rigidbody>().useGravity = false;
+        yield return new WaitForSeconds(2);
+        Debug.Log("Ball too slow, now stopped");
+        BallStopped();
+
+        alreadyWaiting = false;
     }
 
 
@@ -36,14 +48,15 @@ public class Gofball_Location : MonoBehaviour
 
     private void BallStopped(){
         //ball is force stopped so that teleport can happen accurately
-        GetComponent<Rigidbody>().velocity = Vector3.zero;
         StartCoroutine(smoothChangeToPlayerCamera());
         Debug.Log("Ball stopped at" + transform.position);
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
         ballHit = false;
     }
 
     public void BallHit()
     {
+        GetComponent<Rigidbody>().useGravity = true;
         Debug.Log("Ball hit");
         eventSystem.GetComponent<CameraControl>().showBallCamera();
         StartCoroutine(smoothBallHit());
