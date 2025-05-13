@@ -1,0 +1,9 @@
+com.DefaultCompany.SimpleProject.launcher-pngs-0 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/generated/res/pngs/release
+com.DefaultCompany.SimpleProject.launcher-resValues-1 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/generated/res/resValues/release
+com.DefaultCompany.SimpleProject.launcher-rs-2 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/generated/res/rs/release
+com.DefaultCompany.SimpleProject.launcher-mergeReleaseResources-3 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.DefaultCompany.SimpleProject.launcher-mergeReleaseResources-4 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.DefaultCompany.SimpleProject.launcher-merged_res-5 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release
+com.DefaultCompany.SimpleProject.launcher-main-6 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res
+com.DefaultCompany.SimpleProject.launcher-release-7 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/release/res
+com.DefaultCompany.SimpleProject.launcher-packaged_res-8 /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release
