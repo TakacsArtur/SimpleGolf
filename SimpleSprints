@@ -1,14 +1,14 @@
 1. First Round for full functionality:
-- UI putter switch - done
-- Putter zone logic - done
-- Hole Logic - done
+//UI putter switch - done
+//Putter zone logic - done
+//Hole Logic - done
 
 2. Second round of flair
-- Speed effect on ball
+//Speed effect on ball - done
 - Intro screen (preferably fully done) / scene swithching
 
 3. Second round for full functionality
-- Have an event system, and at least implement the ball launched event
+- Have an event system, and at least implement the ball launched event - optinal, prolly won't do
 - Try improving golfing with the Stage / Prestage / launch mechanic offset system
 
 4. Third round of flair
@@ -17,8 +17,8 @@
 - Place the non placeholder robot finally 
 
 5. Third round for full functionality
-- Replace the floor with terrain - done
-- Generate the demo terrain
+//Replace the floor with terrain - done
+//Generate the demo terrain
 
 6. Fourth round of flair
 - Create the golf scoring card-like menu concept (for now with basically a single option)

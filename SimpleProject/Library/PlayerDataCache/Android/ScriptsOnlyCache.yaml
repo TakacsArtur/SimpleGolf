@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraControl
     - Clubrotate
+    - FollowBall
     - GameControl
     - Gof_Teleport
     - Gofball_Location
@@ -27,8 +28,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -158,27 +157,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19746}
     - Class: 114
-      Script: {instanceID: 19996}
+      Script: {instanceID: 19944}
     - Class: 114
-      Script: {instanceID: 20104}
+      Script: {instanceID: 19998}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20106}
     - Class: 114
-      Script: {instanceID: 20594}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20766}
+      Script: {instanceID: 20596}
     - Class: 114
-      Script: {instanceID: 20798}
+      Script: {instanceID: 20768}
     - Class: 114
-      Script: {instanceID: 20928}
+      Script: {instanceID: 20800}
     - Class: 114
-      Script: {instanceID: 21254}
+      Script: {instanceID: 20930}
     - Class: 114
-      Script: {instanceID: 21384}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 21970}
+      Script: {instanceID: 21386}
     - Class: 114
-      Script: {instanceID: 23034}
+      Script: {instanceID: 21972}
+    - Class: 114
+      Script: {instanceID: 23036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -798,6 +799,12 @@ ScriptsOnlyBuild:
     className: UnityOnEndDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: fa66bcb5616edbf8acbd9dbb7b073c9b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowBall
+  - hash:
+      serializedVersion: 2
       Hash: db9b308769d19e1f9e161df0392c23ca
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -960,7 +967,7 @@ ScriptsOnlyBuild:
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
-      Hash: 617d4bb2fa79551897b5423d696767ec
+      Hash: 5e3c8b7b5ead61d36da0621518353890
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Gofball_Location
@@ -1327,4 +1334,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main_Game/Courses/Golf_Course/18Holes.unity
-  playerPath: /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/Android/SanityCheck.apk
+  playerPath: /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/Android/SanityCheck_Particle.apk
