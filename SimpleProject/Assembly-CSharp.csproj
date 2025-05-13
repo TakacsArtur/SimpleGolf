@@ -108,13 +108,13 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfSet_Storage.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
-    <Compile Include="Assets/TitleSceneMove.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Gof_Teleport.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfTeleport.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/CameraControl.cs" />
+    <Compile Include="Assets/Scenes/Main_Game/Title Screen/Assets/TitleSceneMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

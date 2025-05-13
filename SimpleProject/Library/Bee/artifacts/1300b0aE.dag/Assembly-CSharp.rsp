@@ -374,6 +374,7 @@
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/RotateFloor.cs"
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/ScreCounter.cs"
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/ShootBall.cs"
+"Assets/Scenes/Main_Game/Title Screen/Assets/TitleSceneMove.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -408,7 +409,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/TitleSceneMove.cs"
 -langversion:9.0
 /deterministic
 /optimize+
