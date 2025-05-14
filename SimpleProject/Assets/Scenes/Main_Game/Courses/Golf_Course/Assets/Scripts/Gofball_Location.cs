@@ -30,6 +30,20 @@ public class Gofball_Location : MonoBehaviour
         cmpLocation = currentLocation;
     }
 
+    //if nothing happens we override to avoid a softlock
+    IEnumerator TimeOverride(){
+        yield return new WaitForSeconds(10);
+
+        //if nothing happens we stop the game
+        if(ballHit){
+            Debug.Log("SoftLock detected, stopping ball");
+            GetComponent<Rigidbody>().useGravity = false;
+            yield return new WaitForSeconds(2);
+            Debug.Log("Ball too slow, now stopped");
+            BallStopped();
+        }
+    }
+
     IEnumerator WaitAndSeeIfBallChangesDirection(){
         Debug.Log("Waiting and seeing");
         GetComponent<Rigidbody>().useGravity = false;
