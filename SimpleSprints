@@ -5,11 +5,12 @@
 
 2. Second round of flair
 //Speed effect on ball - done
-- Intro screen (preferably fully done) / scene swithching
+//Intro screen (preferably fully done) / scene swithching - done
 
 3. Second round for full functionality
-- Have an event system, and at least implement the ball launched event - optinal, prolly won't do
+- Have an event system, and at least implement the ball launched event
 - Try improving golfing with the Stage / Prestage / launch mechanic offset system
+- Sort out the issue of the putters being selected wrong
 
 4. Third round of flair
 - Place and generate all the sounds. (This involves scoring logic)

@@ -5,8 +5,9 @@ using UnityEngine;
 public class Gofball_Location : MonoBehaviour
 {
     public GameObject golfClub, eventSystem, golfBallParticleEmitterCone, golfBallParticleEmitterSphere, terrainFloor;
-    private bool ballHit = false, alreadyWaiting = false; 
-   
+    private bool ballHit = false, alreadyWaiting = false;
+
+    private IEnumerator softLockProtectionCoroutine;
     float speed = 0;
     Vector3 cmpLocation;
     void Start()
@@ -14,6 +15,7 @@ public class Gofball_Location : MonoBehaviour
         cmpLocation = transform.position;
         golfBallParticleEmitterCone.GetComponent<ParticleSystem>().Stop();
         golfBallParticleEmitterSphere.GetComponent<ParticleSystem>().Stop();
+        softLockProtectionCoroutine = TimeOverride();
     }
 
     void FixedUpdate()
@@ -33,7 +35,7 @@ public class Gofball_Location : MonoBehaviour
     //if nothing happens we override to avoid a softlock
     IEnumerator TimeOverride(){
         yield return new WaitForSeconds(10);
-
+        Debug.Log("SoftLock protection time up");
         //if nothing happens we stop the game
         if(ballHit){
             Debug.Log("SoftLock detected, stopping ball");
@@ -50,7 +52,7 @@ public class Gofball_Location : MonoBehaviour
         yield return new WaitForSeconds(2);
         Debug.Log("Ball too slow, now stopped");
         BallStopped();
-
+        
         alreadyWaiting = false;
     }
 
@@ -66,15 +68,18 @@ public class Gofball_Location : MonoBehaviour
         yield return new WaitForSeconds(1);
         eventSystem.GetComponent<Gof_Teleport>().TeleportPlayer();
         eventSystem.GetComponent<CameraControl>().showPlayerCamera();
-       
+
     }
 
-    private void BallStopped(){
+    private void BallStopped()
+    {
         //ball is force stopped so that teleport can happen accurately
         StartCoroutine(smoothChangeToPlayerCamera());
         Debug.Log("Ball stopped at" + transform.position);
         GetComponent<Rigidbody>().velocity = Vector3.zero;
         ballHit = false;
+        StopCoroutine(softLockProtectionCoroutine);
+        Debug.Log("Stopped Softlock watchdog");
     }
 
     public void BallHit()
@@ -84,11 +89,15 @@ public class Gofball_Location : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = true;
         Debug.Log("Ball hit");
         eventSystem.GetComponent<CameraControl>().showBallCamera();
+        StartCoroutine(softLockProtectionCoroutine);
+        Debug.Log("Started Softlock watchdog");
         StartCoroutine(smoothBallHit());
     }
     //basically the ball gets hit too slowly for the camera change not to trigger
-    private IEnumerator smoothBallHit(){
+    private IEnumerator smoothBallHit()
+    {
         yield return new WaitForSeconds((float)0.5);
         ballHit = true;
+        
     }
 }

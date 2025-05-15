@@ -321,6 +321,7 @@
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/ScreCounter.cs"
 "Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/ShootBall.cs"
 "Assets/Scenes/Main_Game/Title Screen/Assets/TitleSceneMove.cs"
+"Assets/SetResolution.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

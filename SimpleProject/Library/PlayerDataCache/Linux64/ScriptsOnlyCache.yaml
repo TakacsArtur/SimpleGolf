@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - PutterZone
     - RotateFloor
     - ScreCounter
+    - SetResolution
     - ShootBall
     - TitleSceneMove
     Unity.Rider.Editor.dll:
@@ -173,6 +174,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21976}
     - Class: 114
       Script: {instanceID: 23042}
+    - Class: 114
+      Script: {instanceID: 32888}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -260,6 +263,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21260}
     - Class: 114
       Script: {instanceID: 22754}
+    - Class: 114
+      Script: {instanceID: 32888}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -323,6 +328,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20770}
     - Class: 114
       Script: {instanceID: 21260}
+    - Class: 114
+      Script: {instanceID: 32888}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1478,6 +1485,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d3a5653124247ea213346dab31b59173
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SetResolution
   platform: 24
   scenePathNames:
   - Assets/Scenes/Main_Game/Title Screen/TItleScreen.unity

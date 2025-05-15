@@ -1,8 +1,6 @@
 using System;
-using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class ShootBall : MonoBehaviour
 {
@@ -17,6 +15,8 @@ public class ShootBall : MonoBehaviour
     void Start()
     {
         rb = golfBall.GetComponent<Rigidbody>();
+        //basically we inform the game and the UI, what was set in the editor
+        SetCurrentBat(currentBat);
     }
 
      void OnTriggerEnter()
