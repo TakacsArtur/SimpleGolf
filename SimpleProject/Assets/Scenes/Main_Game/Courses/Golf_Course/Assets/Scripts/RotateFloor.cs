@@ -2,9 +2,43 @@ using UnityEngine;
 
 public class RotateFloor : MonoBehaviour
 {
-    public GameObject axis;
+    public GameObject axis, eventSystem;
+    private bool ballHit = false;
+
     void FixedUpdate()
     {
-        transform.RotateAround(axis.transform.position, new Vector3(0, Input.GetAxis("Horizontal"), 0), Time.deltaTime*10);
+        if (IsRotable())
+        {
+            transform.RotateAround(axis.transform.position, new Vector3(0, Input.GetAxis("Horizontal"), 0), Time.deltaTime * 10);
+        }
+    }
+
+    void Start()
+    {
+        eventSystem.GetComponent<EventTriggerScipts>().BallLaunched += BallHit;
+        eventSystem.GetComponent<EventTriggerScipts>().BallLanded += BallStopped;
+    }
+
+    void BallStopped()
+    {
+        ballHit = false;
+        Debug.Log("Ball stopped");
+    }
+
+    void BallHit()
+    {
+        ballHit = true;
+        Debug.Log("Ball shot");
+    }
+
+    bool IsRotable()
+    {
+        if (ballHit == true)
+        {
+            Debug.Log("Ballhit" + ballHit);
+            return false;
+        }
+
+        return true;
     }
 }

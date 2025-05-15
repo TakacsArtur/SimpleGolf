@@ -105,7 +105,6 @@
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Clubrotate.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfBall_Camera.cs" />
-    <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Courserotate.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfSet_Storage.cs" />
@@ -114,6 +113,7 @@
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/Gof_Teleport.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/GolfTeleport.cs" />
+    <Compile Include="Assets/EventTriggerScipts.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Scripts/CameraControl.cs" />
     <Compile Include="Assets/Scenes/Main_Game/Title Screen/Assets/TitleSceneMove.cs" />

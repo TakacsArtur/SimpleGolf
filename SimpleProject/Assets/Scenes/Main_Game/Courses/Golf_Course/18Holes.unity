@@ -317,6 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: {fileID: 65638379}
+  eventSystem: {fileID: 528449859}
 --- !u!1 &376187295
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +5383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 470621374}
   rotationTarget: {fileID: 65638379}
+  eventSystem: {fileID: 528449859}
 --- !u!1 &447592169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5579,6 +5581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: {fileID: 65638379}
+  eventSystem: {fileID: 528449859}
 --- !u!1 &477717226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10590,6 +10593,7 @@ GameObject:
   - component: {fileID: 528449864}
   - component: {fileID: 528449863}
   - component: {fileID: 528449865}
+  - component: {fileID: 528449866}
   m_Layer: 0
   m_Name: EventScripts
   m_TagString: Untagged
@@ -10697,6 +10701,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Club: {fileID: 889259672}
+--- !u!114 &528449866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528449859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3557d12446e3ca39ae3485589c250c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  singletoninstance: {fileID: 0}
 --- !u!1 &563158697
 GameObject:
   m_ObjectHideFlags: 0
@@ -12609,6 +12626,7 @@ MonoBehaviour:
   target: {fileID: 470621378}
   rotationTarget: {fileID: 65638383}
   golfClub: {fileID: 889259677}
+  eventSystem: {fileID: 528449859}
   heightoffsetPutter: 0.2
   heightoffsetBigDriver: 0.3
 --- !u!1 &1747887867
@@ -12945,6 +12963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 470621374}
   rotationTarget: {fileID: 65638379}
+  eventSystem: {fileID: 528449859}
 --- !u!199 &1907137607
 ParticleSystemRenderer:
   serializedVersion: 6

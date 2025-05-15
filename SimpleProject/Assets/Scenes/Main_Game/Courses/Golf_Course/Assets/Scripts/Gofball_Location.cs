@@ -80,18 +80,20 @@ public class Gofball_Location : MonoBehaviour
         ballHit = false;
         StopCoroutine(softLockProtectionCoroutine);
         Debug.Log("Stopped Softlock watchdog");
+        eventSystem.GetComponent<EventTriggerScipts>().BallHasLanded();
     }
 
     public void BallHit()
     {
         golfBallParticleEmitterCone.GetComponent<ParticleSystem>().Play();
-         golfBallParticleEmitterSphere.GetComponent<ParticleSystem>().Play();
+        golfBallParticleEmitterSphere.GetComponent<ParticleSystem>().Play();
         GetComponent<Rigidbody>().useGravity = true;
         Debug.Log("Ball hit");
         eventSystem.GetComponent<CameraControl>().showBallCamera();
         StartCoroutine(softLockProtectionCoroutine);
         Debug.Log("Started Softlock watchdog");
         StartCoroutine(smoothBallHit());
+        eventSystem.GetComponent<EventTriggerScipts>().BallHasLaunched();
     }
     //basically the ball gets hit too slowly for the camera change not to trigger
     private IEnumerator smoothBallHit()
