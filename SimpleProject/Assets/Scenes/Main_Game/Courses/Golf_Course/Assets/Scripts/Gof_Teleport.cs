@@ -36,5 +36,6 @@ public class Gof_Teleport : MonoBehaviour
 
         //inform the game, the player has teleported
         GetComponent<EventTriggerScipts>().PlayerHasTeleported();
+        GetComponent<EventTriggerScipts>().OnStartStage();
     }
 }
