@@ -14,7 +14,7 @@ public class GolfBall_Camera : MonoBehaviour
     {
         startPosition = target.transform.position;
         eventSystem.GetComponent<EventTriggerScipts>().BallLaunched += BallHit;
-        eventSystem.GetComponent<EventTriggerScipts>().BallLanded += BallStopped;
+        eventSystem.GetComponent<EventTriggerScipts>().PlayerTeleported += BallStopped;
     }
     void Update()
     {
@@ -75,7 +75,6 @@ public class GolfBall_Camera : MonoBehaviour
     {
         if (ballHit == true)
         {
-            Debug.Log("Ballhit" + ballHit);
             return false;
         }
 

@@ -16,7 +16,7 @@ public class RotateFloor : MonoBehaviour
     void Start()
     {
         eventSystem.GetComponent<EventTriggerScipts>().BallLaunched += BallHit;
-        eventSystem.GetComponent<EventTriggerScipts>().BallLanded += BallStopped;
+        eventSystem.GetComponent<EventTriggerScipts>().PlayerTeleported += BallStopped;
     }
 
     void BallStopped()
@@ -35,7 +35,6 @@ public class RotateFloor : MonoBehaviour
     {
         if (ballHit == true)
         {
-            Debug.Log("Ballhit" + ballHit);
             return false;
         }
 

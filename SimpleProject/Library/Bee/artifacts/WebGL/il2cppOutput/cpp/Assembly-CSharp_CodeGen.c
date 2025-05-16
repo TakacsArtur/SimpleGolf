@@ -12,6 +12,14 @@
 
 
 
+extern void EventTriggerScipts_Awake_m78302E12A0082BB2FB672D3D8901A9EFF35EB099 (void);
+extern void EventTriggerScipts_add_BallLaunched_m7AD8D6E67E003FB2D46E64B5A7BF8EFF1E692982 (void);
+extern void EventTriggerScipts_remove_BallLaunched_m01E180D4BC5AAF83534125384A8F5B0D97A4D229 (void);
+extern void EventTriggerScipts_BallHasLaunched_m7B49CB24852E438E1C12711767230F3960BB5029 (void);
+extern void EventTriggerScipts_add_BallLanded_mB8F1860932859ECE82632291C53172C93E3C6F84 (void);
+extern void EventTriggerScipts_remove_BallLanded_mF99C2144D6E3EFEF8F797E64C6238A21750265F5 (void);
+extern void EventTriggerScipts_BallHasLanded_m93E21298D5A9A10A6207EEA1F952AF0248A0C705 (void);
+extern void EventTriggerScipts__ctor_m46691AFB5FE55706F343ADF4C66048157AC0CE06 (void);
 extern void MouseWatcher_Update_m633FA1DFB8E9B01DCB89EF605E3C8DFEAFE8AAEC (void);
 extern void MouseWatcher_LoadNextSceneSmoothly_m337726CFC0CF31592304B5452156CE9DFA2479F7 (void);
 extern void MouseWatcher__ctor_m220AA46D35EBBD88B931B83BE66C82F8F4AE768C (void);
@@ -38,10 +46,11 @@ extern void Clubrotate_Update_m0A2F9B25A0D3EEB1F4FA6EE594B146874A934EDF (void);
 extern void Clubrotate_FixedUpdate_m8EFA3D70E042E59F2D03651B20DA2F9AB673DD36 (void);
 extern void Clubrotate_resetIgnoreInput_m0A6A0CF6DBD2CC950DFB9E7A91B5178622917B21 (void);
 extern void Clubrotate__ctor_mA6264B4CD3962B03859DF70C962D68A9BCA870F1 (void);
-extern void Courserotate_Start_mB0726E1B561DA4B50A9E796FCCF4FD482055364C (void);
-extern void Courserotate_Update_m90BEB5BFD24461B8C722798AB2CD2295FA1C8671 (void);
-extern void Courserotate__ctor_m43DEE63077233886DE49545018732A0F80F09670 (void);
 extern void FollowBall_Update_m01CCE95BDB612B1F730D157C41624695BBD45D2D (void);
+extern void FollowBall_Start_m62AFA4BDC237BB219ABE48E60E8F228D8A14797B (void);
+extern void FollowBall_BallStopped_m0CF3662AE03B81B385B0BC6DAB71F01FA46A383C (void);
+extern void FollowBall_BallHit_m0D029B4321B01E306A4478F914A777C2262486DC (void);
+extern void FollowBall_IsRotable_m537C3C3B9D7859D3977AC645E4B3C6C4A3A66BCE (void);
 extern void FollowBall__ctor_mCF85A3E36E52B2001BBA9D0F38C10135FD4607B6 (void);
 extern void GameControl_WinGame_mD635AB0411A6994D4E8C678EE4972A98B54DE083 (void);
 extern void GameControl_LoseGame_mDFDA697EA6EFDFEA488B7BEBA3F24DA3F4FCDD4E (void);
@@ -59,42 +68,45 @@ extern void Gofball_Location_BallStopped_m2B795893233FFE9D7CAC3FDBFABFE326EEDD8D
 extern void Gofball_Location_BallHit_m5A4E87AEA12CF75D8144E712D69C1E1A324F7511 (void);
 extern void Gofball_Location_smoothBallHit_m7A8E8CF7224EC93FFB25CD4A292F48F75F5C6FEA (void);
 extern void Gofball_Location__ctor_m415BDD2A4A477539F72872696355C4CFF4458AA3 (void);
-extern void U3CTimeOverrideU3Ed__11__ctor_mA2C175D27D150E0A99373714854BEB1325F93E77 (void);
-extern void U3CTimeOverrideU3Ed__11_System_IDisposable_Dispose_mEF845532B989479D7C653CE35FE2B4356F4FAE84 (void);
-extern void U3CTimeOverrideU3Ed__11_MoveNext_m59796CB2036A625CC954CFEA7F3E8E338F403799 (void);
-extern void U3CTimeOverrideU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7E4F726ED3191F1D84A28C55F76E978C0181FD9E (void);
-extern void U3CTimeOverrideU3Ed__11_System_Collections_IEnumerator_Reset_m8741B5AD91599F2C11B24CD5DE92BA270F00A803 (void);
-extern void U3CTimeOverrideU3Ed__11_System_Collections_IEnumerator_get_Current_m6038B42A5761E418685206DCD7CBF2F882F6E96A (void);
-extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__12__ctor_m438191D0269FB5587D2BAF0A820C0C3F1F53A8A3 (void);
-extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_IDisposable_Dispose_m02F97BECA737F2700C0FE0CA07B655DBB925AF13 (void);
-extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_MoveNext_mEC3A1686C6F4293DDBA9B3CE04A901856A1D8E00 (void);
-extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB18199826F39C393484CF050D5770E31E90E3590 (void);
-extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_Collections_IEnumerator_Reset_mE0C6ACFA8281212C3FE17638EDB9F865A1D355F4 (void);
-extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_Collections_IEnumerator_get_Current_mB0EEB4B5BC5124BEDFFB6BCBCB22A0981644BA11 (void);
-extern void U3CsmoothBallHitU3Ed__17__ctor_m4D471209EA43BA75AB210B04BEA21CD0E7817065 (void);
-extern void U3CsmoothBallHitU3Ed__17_System_IDisposable_Dispose_m75AC5F8FA9F7B7EB76DD75868B56AEB7F7FF71DB (void);
-extern void U3CsmoothBallHitU3Ed__17_MoveNext_m52BB772FACA7E3F31C391D9E786DCBDFFED2B7D6 (void);
-extern void U3CsmoothBallHitU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m195A35AF49FA7B2213F77323A1D772C6B397F9F9 (void);
-extern void U3CsmoothBallHitU3Ed__17_System_Collections_IEnumerator_Reset_m1D025585A8733591F7D66D5AF4C07FEBB6EE88E8 (void);
-extern void U3CsmoothBallHitU3Ed__17_System_Collections_IEnumerator_get_Current_m6C3F80C3108BE192B9D651FEA5A798AE3506A488 (void);
-extern void U3CsmoothChangeToPlayerCameraU3Ed__14__ctor_mCC91B9D03DBCC1EA15C14B69A3844D1DB9C8ECE9 (void);
-extern void U3CsmoothChangeToPlayerCameraU3Ed__14_System_IDisposable_Dispose_m59B7D1EA95492C24FF6C9CA95BB79FF9BF8898C1 (void);
-extern void U3CsmoothChangeToPlayerCameraU3Ed__14_MoveNext_mE6ACD4409A30E9E9BF0ECFAA32BA25F22DB204FB (void);
-extern void U3CsmoothChangeToPlayerCameraU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED502269DCE2AFED26CD480DA550D604E0491650 (void);
-extern void U3CsmoothChangeToPlayerCameraU3Ed__14_System_Collections_IEnumerator_Reset_m9439A94102762A777FF330E01C8F19AE601F2EDF (void);
-extern void U3CsmoothChangeToPlayerCameraU3Ed__14_System_Collections_IEnumerator_get_Current_mAA43061CB0DCBA18D155680AD721DAEE1310E067 (void);
+extern void U3CTimeOverrideU3Ed__12__ctor_mF64494A2780253F0CFF5CD9CBD26188BB4407BEE (void);
+extern void U3CTimeOverrideU3Ed__12_System_IDisposable_Dispose_mD8554B07F8D44D4D6828EFAF970D0A5BDAFC73F9 (void);
+extern void U3CTimeOverrideU3Ed__12_MoveNext_mEB32E01A65CE76823A9271EBE1E83131E23BD19A (void);
+extern void U3CTimeOverrideU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4BF0864317E022014D53B9FD158FFFA4946B3625 (void);
+extern void U3CTimeOverrideU3Ed__12_System_Collections_IEnumerator_Reset_mD1FEBF1AB110A6CDF9A98804AFE64F9EE45259BE (void);
+extern void U3CTimeOverrideU3Ed__12_System_Collections_IEnumerator_get_Current_mE1ECF05F280EA7F19CBC273181B8D7855096E418 (void);
+extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__13__ctor_mDF5115C1E986563925F002235A595D89ECFB5372 (void);
+extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_IDisposable_Dispose_m5B7D3729CB07D93CBDFF8C432CDB818BB024BB08 (void);
+extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_MoveNext_mBD8CC901B3B2468699AD7DF1EDA173E3C3D4D40A (void);
+extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE23EDC8B7BAF749C3B4F4879EBF9D6BCA05AC08F (void);
+extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_Collections_IEnumerator_Reset_mA29518BF5B95CE42C67566A3DDF7FF82270B4215 (void);
+extern void U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_Collections_IEnumerator_get_Current_mEA758BC27FE218A14C10E6D283B959146C177AB3 (void);
+extern void U3CsmoothBallHitU3Ed__18__ctor_m63B508DED3A33A0B5E58D1346E92A2DB52C7D944 (void);
+extern void U3CsmoothBallHitU3Ed__18_System_IDisposable_Dispose_m67F3C3966DB44F1F94703F118A0768121A4FDE4C (void);
+extern void U3CsmoothBallHitU3Ed__18_MoveNext_mEF93F048F7106DF3916444ABC86550F4D49DEB5A (void);
+extern void U3CsmoothBallHitU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m29F03551E8C4FB6F3620A073D3646521B17526D5 (void);
+extern void U3CsmoothBallHitU3Ed__18_System_Collections_IEnumerator_Reset_m50221CF0AB13A75F97AFE33EEB6BB99373E7E138 (void);
+extern void U3CsmoothBallHitU3Ed__18_System_Collections_IEnumerator_get_Current_mD5B3D71547FE35E24B7421B75B8528C737BFB1D1 (void);
+extern void U3CsmoothChangeToPlayerCameraU3Ed__15__ctor_mAA93DAC7A3A9D846F83EEB9A3B84A0E9DD24AC54 (void);
+extern void U3CsmoothChangeToPlayerCameraU3Ed__15_System_IDisposable_Dispose_mA5A34233C595D726EE9C5C78FD3C94D1C72CEC02 (void);
+extern void U3CsmoothChangeToPlayerCameraU3Ed__15_MoveNext_m3CA532F32E49FA7587FA998857EE37B2879B7300 (void);
+extern void U3CsmoothChangeToPlayerCameraU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1612D012B15457810EAAFD98F0536B48A85F8B48 (void);
+extern void U3CsmoothChangeToPlayerCameraU3Ed__15_System_Collections_IEnumerator_Reset_m3A4C5244FC681A64FC5EC233FD470FD71232CBF8 (void);
+extern void U3CsmoothChangeToPlayerCameraU3Ed__15_System_Collections_IEnumerator_get_Current_m010DA59F21F932E6899B1741A972CBC6907AA343 (void);
 extern void GolfBall_Camera_Start_m3A008C4757045238C628CA9095CAE78505624A40 (void);
 extern void GolfBall_Camera_Update_m9D3DED61051B1CECE6F262C2D575BA8977D6A72F (void);
 extern void GolfBall_Camera_ActivateOffset_m58EFCB0361AD735741C25CAF2DFE92B4FE5AF6AC (void);
 extern void GolfBall_Camera_waitForBall_m8950D44285669A8EA12E24DD52D76B3DD75A7E7F (void);
 extern void GolfBall_Camera_DeActivateOffset_m636F73213D8E01E0ADCC5E7A84C6517EB6CA1ABB (void);
+extern void GolfBall_Camera_BallStopped_mBD0848EF75EAA47B2EABA936AE93BDD1E6043DDF (void);
+extern void GolfBall_Camera_BallHit_mFD07EBBF1F2311BFEDCD5080F0BDB34C133D25A5 (void);
+extern void GolfBall_Camera_IsRotable_m521AAFBB4845F4C070AB19788F0AC231D4B97DED (void);
 extern void GolfBall_Camera__ctor_mCD826D0E57D20F1B72AA120C2CE6918754D40D8D (void);
-extern void U3CwaitForBallU3Ed__12__ctor_m7E7C5A0BA3A3540F7F0E7E3385592AD36D282943 (void);
-extern void U3CwaitForBallU3Ed__12_System_IDisposable_Dispose_mBD55F1EA906E1E45B5BA4A7009A1A9184BEC8029 (void);
-extern void U3CwaitForBallU3Ed__12_MoveNext_m2D06307CFB304641D188CFB3D187876F66E319FB (void);
-extern void U3CwaitForBallU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m80D5D38417141C13312A7B8061B0D10DB3AF689B (void);
-extern void U3CwaitForBallU3Ed__12_System_Collections_IEnumerator_Reset_mE3A0A91E81EB8DA32DA58560B2FA6814E9D8D31E (void);
-extern void U3CwaitForBallU3Ed__12_System_Collections_IEnumerator_get_Current_m03AD080DD5B8945DAF6B0D339B55C8E0CBBAC172 (void);
+extern void U3CwaitForBallU3Ed__14__ctor_m0D4192A22957F4A929C061CFAF2DA3A334B316C4 (void);
+extern void U3CwaitForBallU3Ed__14_System_IDisposable_Dispose_mAC74BB9BA0D87FE21825F50DCE4E627649A6BF0F (void);
+extern void U3CwaitForBallU3Ed__14_MoveNext_m7389AEE44E324C25A300F0312CA4FCE7AB25AD55 (void);
+extern void U3CwaitForBallU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC3457248A3F781BC45B924F66CB22D3C9D561807 (void);
+extern void U3CwaitForBallU3Ed__14_System_Collections_IEnumerator_Reset_mDC3A15CB827D8B1AB0C9AFD36E84C1402BBD317D (void);
+extern void U3CwaitForBallU3Ed__14_System_Collections_IEnumerator_get_Current_mE577D50220535E3E478F3F306260C184B67F6EC9 (void);
 extern void GolfSet_Storage_Start_mF7A8CEFCBE81B39A228EF4900AE7A44C28D95F07 (void);
 extern void GolfSet_Storage_Update_m301531B987E9FFB63842CBCA5B2FA51CACC9F261 (void);
 extern void GolfSet_Storage__ctor_m0508DF276EF943FF2291411782C6144A44542A9C (void);
@@ -119,6 +131,10 @@ extern void PutterZone_OnTriggerEnter_mAC549DD602557AD8060496AD0708CF119F1F5305 
 extern void PutterZone_OnTriggerExit_m0B952568E9CDF9F6645C53D566973AC2C8F1C72E (void);
 extern void PutterZone__ctor_mB0CD561701ADCBDE38F5236943B90AE8D76148B2 (void);
 extern void RotateFloor_FixedUpdate_m1FCEA5D5928B4E8871512B743A1345791B5BC3A1 (void);
+extern void RotateFloor_Start_mED3AA0F21E3F73D254E414A4C977DA1A620D12E6 (void);
+extern void RotateFloor_BallStopped_m67C410BAE103B7C8465DA861B670EE6B149FDABA (void);
+extern void RotateFloor_BallHit_m2AAE7C1BECDD98AE3B468B95917581E4F21CC9C7 (void);
+extern void RotateFloor_IsRotable_m0BEF81CC3A8117F7EB79E65DE3619A8D346EE4C7 (void);
 extern void RotateFloor__ctor_m321F158406100E59DF3D78FFACFE5C98B830722E (void);
 extern void ScreCounter_Start_m569608C0F981A837F8597645B78E1020D82BB5AD (void);
 extern void ScreCounter_ballHit_m56D0234B287DDA45FF8768C1AEFC3FA6886AE25D (void);
@@ -145,8 +161,6 @@ extern void U3CMoveOnU3Ed__2_MoveNext_mDB60D8B6BCC4B1D59FDE395DD62B01B655410D7A 
 extern void U3CMoveOnU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m143F6B61933A1C184079C7B15DDC7D49D142D1C6 (void);
 extern void U3CMoveOnU3Ed__2_System_Collections_IEnumerator_Reset_m959A017A1F91B99FFEB375A36391AE4DBB001D65 (void);
 extern void U3CMoveOnU3Ed__2_System_Collections_IEnumerator_get_Current_m48C4D0C4254F806901E438B359EDEAD58C3ACE32 (void);
-extern void SetResolution_Start_m29DDE8A1AEDABF843AD90FAF25F33CFCDCECED4B (void);
-extern void SetResolution__ctor_m0BBA7434BB6EADDB1839B32C4D6C74C0F4163B00 (void);
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
 extern void ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46 (void);
 extern void ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722 (void);
@@ -414,8 +428,16 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[402] = 
+static Il2CppMethodPointer s_methodPointers[416] = 
 {
+	EventTriggerScipts_Awake_m78302E12A0082BB2FB672D3D8901A9EFF35EB099,
+	EventTriggerScipts_add_BallLaunched_m7AD8D6E67E003FB2D46E64B5A7BF8EFF1E692982,
+	EventTriggerScipts_remove_BallLaunched_m01E180D4BC5AAF83534125384A8F5B0D97A4D229,
+	EventTriggerScipts_BallHasLaunched_m7B49CB24852E438E1C12711767230F3960BB5029,
+	EventTriggerScipts_add_BallLanded_mB8F1860932859ECE82632291C53172C93E3C6F84,
+	EventTriggerScipts_remove_BallLanded_mF99C2144D6E3EFEF8F797E64C6238A21750265F5,
+	EventTriggerScipts_BallHasLanded_m93E21298D5A9A10A6207EEA1F952AF0248A0C705,
+	EventTriggerScipts__ctor_m46691AFB5FE55706F343ADF4C66048157AC0CE06,
 	MouseWatcher_Update_m633FA1DFB8E9B01DCB89EF605E3C8DFEAFE8AAEC,
 	MouseWatcher_LoadNextSceneSmoothly_m337726CFC0CF31592304B5452156CE9DFA2479F7,
 	MouseWatcher__ctor_m220AA46D35EBBD88B931B83BE66C82F8F4AE768C,
@@ -442,10 +464,11 @@ static Il2CppMethodPointer s_methodPointers[402] =
 	Clubrotate_FixedUpdate_m8EFA3D70E042E59F2D03651B20DA2F9AB673DD36,
 	Clubrotate_resetIgnoreInput_m0A6A0CF6DBD2CC950DFB9E7A91B5178622917B21,
 	Clubrotate__ctor_mA6264B4CD3962B03859DF70C962D68A9BCA870F1,
-	Courserotate_Start_mB0726E1B561DA4B50A9E796FCCF4FD482055364C,
-	Courserotate_Update_m90BEB5BFD24461B8C722798AB2CD2295FA1C8671,
-	Courserotate__ctor_m43DEE63077233886DE49545018732A0F80F09670,
 	FollowBall_Update_m01CCE95BDB612B1F730D157C41624695BBD45D2D,
+	FollowBall_Start_m62AFA4BDC237BB219ABE48E60E8F228D8A14797B,
+	FollowBall_BallStopped_m0CF3662AE03B81B385B0BC6DAB71F01FA46A383C,
+	FollowBall_BallHit_m0D029B4321B01E306A4478F914A777C2262486DC,
+	FollowBall_IsRotable_m537C3C3B9D7859D3977AC645E4B3C6C4A3A66BCE,
 	FollowBall__ctor_mCF85A3E36E52B2001BBA9D0F38C10135FD4607B6,
 	GameControl_WinGame_mD635AB0411A6994D4E8C678EE4972A98B54DE083,
 	GameControl_LoseGame_mDFDA697EA6EFDFEA488B7BEBA3F24DA3F4FCDD4E,
@@ -463,42 +486,45 @@ static Il2CppMethodPointer s_methodPointers[402] =
 	Gofball_Location_BallHit_m5A4E87AEA12CF75D8144E712D69C1E1A324F7511,
 	Gofball_Location_smoothBallHit_m7A8E8CF7224EC93FFB25CD4A292F48F75F5C6FEA,
 	Gofball_Location__ctor_m415BDD2A4A477539F72872696355C4CFF4458AA3,
-	U3CTimeOverrideU3Ed__11__ctor_mA2C175D27D150E0A99373714854BEB1325F93E77,
-	U3CTimeOverrideU3Ed__11_System_IDisposable_Dispose_mEF845532B989479D7C653CE35FE2B4356F4FAE84,
-	U3CTimeOverrideU3Ed__11_MoveNext_m59796CB2036A625CC954CFEA7F3E8E338F403799,
-	U3CTimeOverrideU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7E4F726ED3191F1D84A28C55F76E978C0181FD9E,
-	U3CTimeOverrideU3Ed__11_System_Collections_IEnumerator_Reset_m8741B5AD91599F2C11B24CD5DE92BA270F00A803,
-	U3CTimeOverrideU3Ed__11_System_Collections_IEnumerator_get_Current_m6038B42A5761E418685206DCD7CBF2F882F6E96A,
-	U3CWaitAndSeeIfBallChangesDirectionU3Ed__12__ctor_m438191D0269FB5587D2BAF0A820C0C3F1F53A8A3,
-	U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_IDisposable_Dispose_m02F97BECA737F2700C0FE0CA07B655DBB925AF13,
-	U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_MoveNext_mEC3A1686C6F4293DDBA9B3CE04A901856A1D8E00,
-	U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB18199826F39C393484CF050D5770E31E90E3590,
-	U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_Collections_IEnumerator_Reset_mE0C6ACFA8281212C3FE17638EDB9F865A1D355F4,
-	U3CWaitAndSeeIfBallChangesDirectionU3Ed__12_System_Collections_IEnumerator_get_Current_mB0EEB4B5BC5124BEDFFB6BCBCB22A0981644BA11,
-	U3CsmoothBallHitU3Ed__17__ctor_m4D471209EA43BA75AB210B04BEA21CD0E7817065,
-	U3CsmoothBallHitU3Ed__17_System_IDisposable_Dispose_m75AC5F8FA9F7B7EB76DD75868B56AEB7F7FF71DB,
-	U3CsmoothBallHitU3Ed__17_MoveNext_m52BB772FACA7E3F31C391D9E786DCBDFFED2B7D6,
-	U3CsmoothBallHitU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m195A35AF49FA7B2213F77323A1D772C6B397F9F9,
-	U3CsmoothBallHitU3Ed__17_System_Collections_IEnumerator_Reset_m1D025585A8733591F7D66D5AF4C07FEBB6EE88E8,
-	U3CsmoothBallHitU3Ed__17_System_Collections_IEnumerator_get_Current_m6C3F80C3108BE192B9D651FEA5A798AE3506A488,
-	U3CsmoothChangeToPlayerCameraU3Ed__14__ctor_mCC91B9D03DBCC1EA15C14B69A3844D1DB9C8ECE9,
-	U3CsmoothChangeToPlayerCameraU3Ed__14_System_IDisposable_Dispose_m59B7D1EA95492C24FF6C9CA95BB79FF9BF8898C1,
-	U3CsmoothChangeToPlayerCameraU3Ed__14_MoveNext_mE6ACD4409A30E9E9BF0ECFAA32BA25F22DB204FB,
-	U3CsmoothChangeToPlayerCameraU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED502269DCE2AFED26CD480DA550D604E0491650,
-	U3CsmoothChangeToPlayerCameraU3Ed__14_System_Collections_IEnumerator_Reset_m9439A94102762A777FF330E01C8F19AE601F2EDF,
-	U3CsmoothChangeToPlayerCameraU3Ed__14_System_Collections_IEnumerator_get_Current_mAA43061CB0DCBA18D155680AD721DAEE1310E067,
+	U3CTimeOverrideU3Ed__12__ctor_mF64494A2780253F0CFF5CD9CBD26188BB4407BEE,
+	U3CTimeOverrideU3Ed__12_System_IDisposable_Dispose_mD8554B07F8D44D4D6828EFAF970D0A5BDAFC73F9,
+	U3CTimeOverrideU3Ed__12_MoveNext_mEB32E01A65CE76823A9271EBE1E83131E23BD19A,
+	U3CTimeOverrideU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4BF0864317E022014D53B9FD158FFFA4946B3625,
+	U3CTimeOverrideU3Ed__12_System_Collections_IEnumerator_Reset_mD1FEBF1AB110A6CDF9A98804AFE64F9EE45259BE,
+	U3CTimeOverrideU3Ed__12_System_Collections_IEnumerator_get_Current_mE1ECF05F280EA7F19CBC273181B8D7855096E418,
+	U3CWaitAndSeeIfBallChangesDirectionU3Ed__13__ctor_mDF5115C1E986563925F002235A595D89ECFB5372,
+	U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_IDisposable_Dispose_m5B7D3729CB07D93CBDFF8C432CDB818BB024BB08,
+	U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_MoveNext_mBD8CC901B3B2468699AD7DF1EDA173E3C3D4D40A,
+	U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE23EDC8B7BAF749C3B4F4879EBF9D6BCA05AC08F,
+	U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_Collections_IEnumerator_Reset_mA29518BF5B95CE42C67566A3DDF7FF82270B4215,
+	U3CWaitAndSeeIfBallChangesDirectionU3Ed__13_System_Collections_IEnumerator_get_Current_mEA758BC27FE218A14C10E6D283B959146C177AB3,
+	U3CsmoothBallHitU3Ed__18__ctor_m63B508DED3A33A0B5E58D1346E92A2DB52C7D944,
+	U3CsmoothBallHitU3Ed__18_System_IDisposable_Dispose_m67F3C3966DB44F1F94703F118A0768121A4FDE4C,
+	U3CsmoothBallHitU3Ed__18_MoveNext_mEF93F048F7106DF3916444ABC86550F4D49DEB5A,
+	U3CsmoothBallHitU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m29F03551E8C4FB6F3620A073D3646521B17526D5,
+	U3CsmoothBallHitU3Ed__18_System_Collections_IEnumerator_Reset_m50221CF0AB13A75F97AFE33EEB6BB99373E7E138,
+	U3CsmoothBallHitU3Ed__18_System_Collections_IEnumerator_get_Current_mD5B3D71547FE35E24B7421B75B8528C737BFB1D1,
+	U3CsmoothChangeToPlayerCameraU3Ed__15__ctor_mAA93DAC7A3A9D846F83EEB9A3B84A0E9DD24AC54,
+	U3CsmoothChangeToPlayerCameraU3Ed__15_System_IDisposable_Dispose_mA5A34233C595D726EE9C5C78FD3C94D1C72CEC02,
+	U3CsmoothChangeToPlayerCameraU3Ed__15_MoveNext_m3CA532F32E49FA7587FA998857EE37B2879B7300,
+	U3CsmoothChangeToPlayerCameraU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1612D012B15457810EAAFD98F0536B48A85F8B48,
+	U3CsmoothChangeToPlayerCameraU3Ed__15_System_Collections_IEnumerator_Reset_m3A4C5244FC681A64FC5EC233FD470FD71232CBF8,
+	U3CsmoothChangeToPlayerCameraU3Ed__15_System_Collections_IEnumerator_get_Current_m010DA59F21F932E6899B1741A972CBC6907AA343,
 	GolfBall_Camera_Start_m3A008C4757045238C628CA9095CAE78505624A40,
 	GolfBall_Camera_Update_m9D3DED61051B1CECE6F262C2D575BA8977D6A72F,
 	GolfBall_Camera_ActivateOffset_m58EFCB0361AD735741C25CAF2DFE92B4FE5AF6AC,
 	GolfBall_Camera_waitForBall_m8950D44285669A8EA12E24DD52D76B3DD75A7E7F,
 	GolfBall_Camera_DeActivateOffset_m636F73213D8E01E0ADCC5E7A84C6517EB6CA1ABB,
+	GolfBall_Camera_BallStopped_mBD0848EF75EAA47B2EABA936AE93BDD1E6043DDF,
+	GolfBall_Camera_BallHit_mFD07EBBF1F2311BFEDCD5080F0BDB34C133D25A5,
+	GolfBall_Camera_IsRotable_m521AAFBB4845F4C070AB19788F0AC231D4B97DED,
 	GolfBall_Camera__ctor_mCD826D0E57D20F1B72AA120C2CE6918754D40D8D,
-	U3CwaitForBallU3Ed__12__ctor_m7E7C5A0BA3A3540F7F0E7E3385592AD36D282943,
-	U3CwaitForBallU3Ed__12_System_IDisposable_Dispose_mBD55F1EA906E1E45B5BA4A7009A1A9184BEC8029,
-	U3CwaitForBallU3Ed__12_MoveNext_m2D06307CFB304641D188CFB3D187876F66E319FB,
-	U3CwaitForBallU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m80D5D38417141C13312A7B8061B0D10DB3AF689B,
-	U3CwaitForBallU3Ed__12_System_Collections_IEnumerator_Reset_mE3A0A91E81EB8DA32DA58560B2FA6814E9D8D31E,
-	U3CwaitForBallU3Ed__12_System_Collections_IEnumerator_get_Current_m03AD080DD5B8945DAF6B0D339B55C8E0CBBAC172,
+	U3CwaitForBallU3Ed__14__ctor_m0D4192A22957F4A929C061CFAF2DA3A334B316C4,
+	U3CwaitForBallU3Ed__14_System_IDisposable_Dispose_mAC74BB9BA0D87FE21825F50DCE4E627649A6BF0F,
+	U3CwaitForBallU3Ed__14_MoveNext_m7389AEE44E324C25A300F0312CA4FCE7AB25AD55,
+	U3CwaitForBallU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC3457248A3F781BC45B924F66CB22D3C9D561807,
+	U3CwaitForBallU3Ed__14_System_Collections_IEnumerator_Reset_mDC3A15CB827D8B1AB0C9AFD36E84C1402BBD317D,
+	U3CwaitForBallU3Ed__14_System_Collections_IEnumerator_get_Current_mE577D50220535E3E478F3F306260C184B67F6EC9,
 	GolfSet_Storage_Start_mF7A8CEFCBE81B39A228EF4900AE7A44C28D95F07,
 	GolfSet_Storage_Update_m301531B987E9FFB63842CBCA5B2FA51CACC9F261,
 	GolfSet_Storage__ctor_m0508DF276EF943FF2291411782C6144A44542A9C,
@@ -523,6 +549,10 @@ static Il2CppMethodPointer s_methodPointers[402] =
 	PutterZone_OnTriggerExit_m0B952568E9CDF9F6645C53D566973AC2C8F1C72E,
 	PutterZone__ctor_mB0CD561701ADCBDE38F5236943B90AE8D76148B2,
 	RotateFloor_FixedUpdate_m1FCEA5D5928B4E8871512B743A1345791B5BC3A1,
+	RotateFloor_Start_mED3AA0F21E3F73D254E414A4C977DA1A620D12E6,
+	RotateFloor_BallStopped_m67C410BAE103B7C8465DA861B670EE6B149FDABA,
+	RotateFloor_BallHit_m2AAE7C1BECDD98AE3B468B95917581E4F21CC9C7,
+	RotateFloor_IsRotable_m0BEF81CC3A8117F7EB79E65DE3619A8D346EE4C7,
 	RotateFloor__ctor_m321F158406100E59DF3D78FFACFE5C98B830722E,
 	ScreCounter_Start_m569608C0F981A837F8597645B78E1020D82BB5AD,
 	ScreCounter_ballHit_m56D0234B287DDA45FF8768C1AEFC3FA6886AE25D,
@@ -549,8 +579,6 @@ static Il2CppMethodPointer s_methodPointers[402] =
 	U3CMoveOnU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m143F6B61933A1C184079C7B15DDC7D49D142D1C6,
 	U3CMoveOnU3Ed__2_System_Collections_IEnumerator_Reset_m959A017A1F91B99FFEB375A36391AE4DBB001D65,
 	U3CMoveOnU3Ed__2_System_Collections_IEnumerator_get_Current_m48C4D0C4254F806901E438B359EDEAD58C3ACE32,
-	SetResolution_Start_m29DDE8A1AEDABF843AD90FAF25F33CFCDCECED4B,
-	SetResolution__ctor_m0BBA7434BB6EADDB1839B32C4D6C74C0F4163B00,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
 	ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46,
 	ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722,
@@ -819,9 +847,17 @@ static Il2CppMethodPointer s_methodPointers[402] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[402] = 
+static const int32_t s_InvokerIndices[416] = 
 {
 	4495,
+	3620,
+	3620,
+	4495,
+	3620,
+	3620,
+	4495,
+	4495,
+	4495,
 	4396,
 	4495,
 	3595,
@@ -851,6 +887,7 @@ static const int32_t s_InvokerIndices[402] =
 	4495,
 	4495,
 	4495,
+	4321,
 	4495,
 	4495,
 	4495,
@@ -898,6 +935,9 @@ static const int32_t s_InvokerIndices[402] =
 	4396,
 	4495,
 	4495,
+	4495,
+	4321,
+	4495,
 	3595,
 	4495,
 	4321,
@@ -928,6 +968,10 @@ static const int32_t s_InvokerIndices[402] =
 	3620,
 	4495,
 	4495,
+	4495,
+	4495,
+	4495,
+	4321,
 	4495,
 	4495,
 	4495,
@@ -956,8 +1000,6 @@ static const int32_t s_InvokerIndices[402] =
 	4396,
 	4495,
 	4495,
-	4495,
-	4495,
 	3620,
 	4495,
 	4495,
@@ -971,168 +1013,168 @@ static const int32_t s_InvokerIndices[402] =
 	4396,
 	4495,
 	4396,
-	6455,
-	4495,
-	887,
-	4495,
-	887,
-	4495,
-	4396,
-	3620,
-	4396,
-	3620,
-	4396,
-	3620,
-	4396,
-	3620,
-	4396,
-	3620,
-	4495,
-	4495,
-	3620,
-	3620,
-	1994,
-	1994,
-	1013,
-	1013,
-	1031,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4396,
-	4495,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	4396,
-	4495,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4396,
-	4495,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	3182,
-	4396,
-	4495,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	4495,
-	3595,
-	4495,
-	4495,
-	4495,
-	1994,
-	1994,
-	1013,
-	1013,
-	1031,
-	4495,
-	4495,
-	4495,
-	4495,
-	3620,
-	3620,
-	4495,
-	4495,
-	4495,
-	4495,
-	3620,
-	4495,
-	3620,
-	3620,
-	3620,
-	3620,
-	3595,
-	4495,
-	4495,
-	4495,
-	4495,
-	3595,
-	4495,
-	4495,
-	3595,
-	4495,
-	4495,
-	4396,
-	4495,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	4495,
-	4495,
-	4495,
-	4495,
-	3620,
-	3182,
-	3182,
-	4495,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	3595,
-	4495,
-	4321,
-	4396,
-	4495,
-	4396,
-	4495,
-	4495,
-	4396,
-	4396,
-	4495,
 	6451,
+	4495,
+	887,
+	4495,
+	887,
+	4495,
+	4396,
+	3620,
+	4396,
+	3620,
+	4396,
+	3620,
+	4396,
+	3620,
+	4396,
+	3620,
+	4495,
+	4495,
+	3620,
+	3620,
+	1994,
+	1994,
+	1013,
+	1013,
+	1031,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4396,
+	4495,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	4396,
+	4495,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4396,
+	4495,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	3182,
+	4396,
+	4495,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	4495,
+	3595,
+	4495,
+	4495,
+	4495,
+	1994,
+	1994,
+	1013,
+	1013,
+	1031,
+	4495,
+	4495,
+	4495,
+	4495,
+	3620,
+	3620,
+	4495,
+	4495,
+	4495,
+	4495,
+	3620,
+	4495,
+	3620,
+	3620,
+	3620,
+	3620,
+	3595,
+	4495,
+	4495,
+	4495,
+	4495,
+	3595,
+	4495,
+	4495,
+	3595,
+	4495,
+	4495,
+	4396,
+	4495,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	4495,
+	4495,
+	4495,
+	4495,
+	3620,
+	3182,
+	3182,
+	4495,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	3595,
+	4495,
+	4321,
+	4396,
+	4495,
+	4396,
+	4495,
+	4495,
+	4396,
+	4396,
+	4495,
+	6447,
 	3595,
 	4495,
 	4321,
@@ -1228,7 +1270,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	402,
+	416,
 	s_methodPointers,
 	0,
 	NULL,

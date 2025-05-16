@@ -7,7 +7,7 @@ public class Gofball_Location : MonoBehaviour
     public GameObject golfClub, eventSystem, golfBallParticleEmitterCone, golfBallParticleEmitterSphere, terrainFloor;
     private bool ballHit = false, alreadyWaiting = false;
 
-    private IEnumerator softLockProtectionCoroutine;
+    private Coroutine softLockProtectionCoroutine;
     float speed = 0;
     Vector3 cmpLocation;
     void Start()
@@ -15,7 +15,6 @@ public class Gofball_Location : MonoBehaviour
         cmpLocation = transform.position;
         golfBallParticleEmitterCone.GetComponent<ParticleSystem>().Stop();
         golfBallParticleEmitterSphere.GetComponent<ParticleSystem>().Stop();
-        softLockProtectionCoroutine = TimeOverride();
     }
 
     void FixedUpdate()
@@ -34,16 +33,14 @@ public class Gofball_Location : MonoBehaviour
 
     //if nothing happens we override to avoid a softlock
     IEnumerator TimeOverride(){
+        Debug.Log("SoftLock protection waiting");
         yield return new WaitForSeconds(10);
         Debug.Log("SoftLock protection time up");
-        //if nothing happens we stop the game
-        if(ballHit){
-            Debug.Log("SoftLock detected, stopping ball");
-            GetComponent<Rigidbody>().useGravity = false;
-            yield return new WaitForSeconds(2);
-            Debug.Log("Ball too slow, now stopped");
-            BallStopped();
-        }
+        Debug.Log("SoftLock detected, stopping ball");
+        GetComponent<Rigidbody>().useGravity = false;
+        yield return new WaitForSeconds(2);
+        Debug.Log("Ball too slow, now stopped");
+        BallStopped();
     }
 
     IEnumerator WaitAndSeeIfBallChangesDirection(){
@@ -90,7 +87,7 @@ public class Gofball_Location : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = true;
         Debug.Log("Ball hit");
         eventSystem.GetComponent<CameraControl>().showBallCamera();
-        StartCoroutine(softLockProtectionCoroutine);
+        softLockProtectionCoroutine = StartCoroutine(TimeOverride());
         Debug.Log("Started Softlock watchdog");
         StartCoroutine(smoothBallHit());
         eventSystem.GetComponent<EventTriggerScipts>().BallHasLaunched();

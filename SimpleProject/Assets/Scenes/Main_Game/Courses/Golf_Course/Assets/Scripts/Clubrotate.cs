@@ -13,7 +13,6 @@ public class Clubrotate : MonoBehaviour
     void Update()
     {
         if(Input.GetButtonDown("Fire1")){
-            Debug.Log("Feuer");
             ignoreInput = false;
         }
     }

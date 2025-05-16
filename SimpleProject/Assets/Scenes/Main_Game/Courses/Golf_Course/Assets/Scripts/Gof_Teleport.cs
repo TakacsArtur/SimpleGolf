@@ -23,15 +23,18 @@ public class Gof_Teleport : MonoBehaviour
         Debug.Log(activeTerrain.SampleHeight(player.transform.position));
     }
     public void TeleportPlayer()
-    {   
+    {
         Debug.Log(activeTerrain.SampleHeight(player.transform.position));
         //Please note, the X/Z (so the two plain axies) are determined by the golfball, (basically the player walks to the ball), but the offset is calculated by the floor
-        player.transform.position = new Vector3(golfBall.transform.position.x, activeTerrain.SampleHeight(golfBall.transform.position) - robotOffset , golfBall.transform.position.z);      
+        player.transform.position = new Vector3(golfBall.transform.position.x, activeTerrain.SampleHeight(golfBall.transform.position) - robotOffset, golfBall.transform.position.z);
         //Set the arm for the teleport, when the ball is nowhere near
         golfClub.transform.localEulerAngles = new Vector3(golfClubDefaultx, golfClubDefaulty, golfClubDefaultz);
         golfClub.transform.localPosition = new Vector3(golfClubPosDefaultx, golfClubPosDefaulty, golfClubPosDefaultz);
-        
-        golfBall.transform.position = new Vector3(golfBallStand.transform.position.x, activeTerrain.SampleHeight(golfBall.transform.position) - golfBallOffset , golfBallStand.transform.position.z);
+
+        golfBall.transform.position = new Vector3(golfBallStand.transform.position.x, activeTerrain.SampleHeight(golfBall.transform.position) - golfBallOffset, golfBallStand.transform.position.z);
         golfBall.transform.localEulerAngles = new Vector3(golfBallDefaultx, golfBallDefaulty, golfBallDefaultz);
+
+        //inform the game, the player has teleported
+        GetComponent<EventTriggerScipts>().PlayerHasTeleported();
     }
 }

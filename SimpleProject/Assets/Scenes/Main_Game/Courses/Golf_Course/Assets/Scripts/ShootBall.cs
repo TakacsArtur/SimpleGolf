@@ -51,8 +51,8 @@ public class ShootBall : MonoBehaviour
 
         }
 
-        Debug.Log("Current heading:" + directionProvider.transform.forward);
-        Debug.Log("Selected battype" + currentBat);
+        Debug.Log("Current heading: " + directionProvider.transform.forward);
+        Debug.Log("Selected battype: " + currentBat);
         rb.AddForce(directionProvider.transform.forward.x * golfForcexOffset , directionProvider.transform.forward.y + golfForceyOffset, directionProvider.transform.forward.z * golfForcezOffset, ForceMode.Impulse);
         Eventsystem.GetComponent<ScreCounter>().ballHit();
         GetComponent<Clubrotate>().resetIgnoreInput();
