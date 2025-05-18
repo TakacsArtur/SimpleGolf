@@ -9,10 +9,12 @@ public class PutterZone : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Club.GetComponent<ShootBall>().setPutterZone();
+        Debug.Log("Putterzone entered");
     }
 
     void OnTriggerExit(Collider other)
     {
         Club.GetComponent<ShootBall>().reSetInPutterZone();
+        Debug.Log("Putterzone exited");
     }
 }

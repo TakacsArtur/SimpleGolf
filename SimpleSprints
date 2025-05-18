@@ -14,7 +14,7 @@
 
 4. Third round of flair
 - Place and generate all the sounds. (This involves scoring logic)
-- Color the golf cart
+//Color the golf cart
 //Place the non placeholder robot finally 
 
 5. Third round for full functionality
@@ -25,11 +25,12 @@
 - Create the golf scoring card-like menu concept (for now with basically a single option)
 
 7. Everything else
-- Data access screen
-- How to play scren
+//Data access screen
 //Make the mountains better
 //Make the grass better
 //Only make it possible to click on the title screen one
 - Proper spawining on rough terrain
 - Proper camera movement on rough terrain
+- Behind the hole there is a location where the ball can clip the terrain
+- Putter zone script bug
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Game/Press Any Key Screen/PressAnyKeyScreem.unity
     guid: 6d8ed49c668da489590af250ffb70e4c
   - enabled: 1
+    path: Assets/Scenes/Main_Game/Data Access Screen/Data Access.unity
+    guid: b6ae01009dadf2ba6bc68e867276a111
+  - enabled: 1
     path: Assets/Scenes/Main_Game/Courses/Golf_Course/18Holes.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

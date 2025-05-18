@@ -38,16 +38,16 @@ public class ShootBall : MonoBehaviour
         }
 
         if (currentBat == batType.theBigDriver){
-            golfForcexOffset = 12;
-            golfForceyOffset = 3;
-            golfForcezOffset = 12;
+            golfForcexOffset = 30;
+            golfForceyOffset = 10;
+            golfForcezOffset = 30;
 
         }
 
         if(currentBat == batType.medDriver){
-            golfForcexOffset = 5;
-            golfForceyOffset = 0.5F;
-            golfForcezOffset = 5;
+            golfForcexOffset = 15;
+            golfForceyOffset = 3;
+            golfForcezOffset = 15;
 
         }
 
@@ -116,6 +116,7 @@ public class ShootBall : MonoBehaviour
 
     public void setPutterZone(){
         inPutterZone =true;
+        SetCurrentBat(batType.putter);
     }
 
     public void reSetInPutterZone(){
