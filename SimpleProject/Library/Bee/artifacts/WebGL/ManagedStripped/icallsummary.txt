@@ -519,6 +519,7 @@ UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
 UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::UnloadSceneNameIndexInternal
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width

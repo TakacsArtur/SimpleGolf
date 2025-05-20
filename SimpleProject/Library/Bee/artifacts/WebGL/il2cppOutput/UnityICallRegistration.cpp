@@ -2402,6 +2402,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
 		Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
 
+		//UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManagerAPIInternal::UnloadSceneNameIndexInternal(System.String,System.Int32,System.Boolean,UnityEngine.SceneManagement.UnloadSceneOptions,System.Boolean&)
+		void Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_UnloadSceneNameIndexInternal();
+		Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_UnloadSceneNameIndexInternal();
+
 	//End Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
 
 	//Start Registrations for type : UnityEngine.Screen

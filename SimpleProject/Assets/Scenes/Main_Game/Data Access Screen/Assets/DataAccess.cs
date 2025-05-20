@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DataAccess : MonoBehaviour
 {
-    public string SceneName;
+    public string SceneName, UnloadTitle, UnloadStart;
 
     void Start()
     {
@@ -15,6 +15,8 @@ public class DataAccess : MonoBehaviour
     {
        
         AsyncOperation loadGame = SceneManager.LoadSceneAsync(SceneName);
+        AsyncOperation unloadTitle = SceneManager.UnloadSceneAsync(UnloadTitle);
+        AsyncOperation uploadStart = SceneManager.UnloadSceneAsync(UnloadStart);
         yield return null;
     }
 }
