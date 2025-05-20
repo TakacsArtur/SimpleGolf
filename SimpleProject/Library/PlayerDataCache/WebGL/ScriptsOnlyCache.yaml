@@ -1539,4 +1539,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main_Game/Press Any Key Screen/PressAnyKeyScreem.unity
   - Assets/Scenes/Main_Game/Data Access Screen/Data Access.unity
   - Assets/Scenes/Main_Game/Courses/Golf_Course/18Holes.unity
-  playerPath: /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/WebGL/Optimisation25
+  playerPath: /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleBuilds/WebGL/Optimisation27

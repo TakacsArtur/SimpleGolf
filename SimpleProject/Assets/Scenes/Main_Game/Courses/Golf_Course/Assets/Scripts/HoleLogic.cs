@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HoleLogic : MonoBehaviour
 {
@@ -11,6 +12,6 @@ public class HoleLogic : MonoBehaviour
     }
 
     void Endgame(){
-        Debug.Log("Hole won");
+        SceneManager.LoadScene("ThankYouScene");
     }
 }

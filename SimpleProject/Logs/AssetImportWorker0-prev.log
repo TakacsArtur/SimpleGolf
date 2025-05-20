@@ -1,0 +1,1441 @@
+Unity Editor version:    2022.3.61f1 (6c53ebaf375d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #26~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Apr 17 19:20:47 UTC 2
+Kernel version:          6.11.0-26-generic
+Architecture:            x86_64
+Available memory:        31916 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:4799): Gtk-CRITICAL **: 08:43:05.523: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
+
+(Unity:4799): GLib-GObject-CRITICAL **: 08:43:05.523: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Desktop is 3840 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+44997
+Successfully changed project path to: /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject
+/home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [137556947026944]  Target information:
+
+Player connection [137556947026944]  * "[IP] 10.14.14.12 [Port] 0 [Flags] 2 [Guid] 980338955 [EditorId] 980338955 [Version] 1048832 [Id] LinuxEditor(16,10.14.14.12) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [137556947026944]  * "[IP] 10.14.200.77 [Port] 0 [Flags] 2 [Guid] 980338955 [EditorId] 980338955 [Version] 1048832 [Id] LinuxEditor(16,10.14.14.12) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [137556947026944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [137556947026944] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 1,70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
+[Subsystems] Discovering subsystems at path /home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/ddk/Documents/Github/SimpleGolf/SimpleGolf/SimpleProject/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon Pro WX 3200 Series (radeonsi, polaris12, LLVM 19.1.1, DRM 3.61, 6.11.0-26-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 24.2.8-1ubuntu1~24.04.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_A
+RB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11
+f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anis
+otropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_dep
+th_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1167886144
+Initialize mono
+Mono path[0] = '/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Managed'
+Mono path[1] = '/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56799
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/ddk/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,006964 seconds.
+- Loaded All Assemblies, in  0,290 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 106 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,438 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (214ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0,554 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,542 seconds
+Domain Reload Profiling: 1096ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (542ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (27.1 KB). Loaded Objects now: 3699.
+Memory consumption went from 136.3 MB to 136.3 MB.
+Total: 3.586375 ms (FindLiveObjects: 0.251973 ms CreateObjectMapping: 0.231123 ms MarkObjects: 2.989943 ms  DeleteObjects: 0.112276 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 413.168184 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Materials/NewLayer.terrainlayer
+  artifactKey: Guid(c23439deb68a096c48fc2c22592d4805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Materials/NewLayer.terrainlayer using Guid(c23439deb68a096c48fc2c22592d4805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3f9011f8556cafde3ab9292987841ea2') in 0.071368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.963032 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grass.png
+  artifactKey: Guid(393b5541fe5016f63b0aef900abcd2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grass.png using Guid(393b5541fe5016f63b0aef900abcd2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3e3029ebf079711e0bed438ab5a0c9a') in 0.021811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.317 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3708.
+Memory consumption went from 134.3 MB to 134.2 MB.
+Total: 3.297616 ms (FindLiveObjects: 0.240344 ms CreateObjectMapping: 0.207530 ms MarkObjects: 2.800319 ms  DeleteObjects: 0.048452 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.322 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 938ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (616ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3711.
+Memory consumption went from 134.5 MB to 134.5 MB.
+Total: 3.284647 ms (FindLiveObjects: 0.257775 ms CreateObjectMapping: 0.211229 ms MarkObjects: 2.755662 ms  DeleteObjects: 0.058861 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.318 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 940ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3714.
+Memory consumption went from 134.5 MB to 134.5 MB.
+Total: 3.573201 ms (FindLiveObjects: 0.310763 ms CreateObjectMapping: 0.202858 ms MarkObjects: 3.012753 ms  DeleteObjects: 0.045902 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3714.
+Memory consumption went from 84.9 MB to 84.9 MB.
+Total: 3.412745 ms (FindLiveObjects: 0.302555 ms CreateObjectMapping: 0.204915 ms MarkObjects: 2.886933 ms  DeleteObjects: 0.017481 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3073.598818 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_B_Color1.fbx
+  artifactKey: Guid(880f7625987822ae9ab4f73a052d94dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_B_Color1.fbx using Guid(880f7625987822ae9ab4f73a052d94dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fef14a9da25a368daf30eb1ef7f6920c') in 0.159642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_B_Color1.fbx
+  artifactKey: Guid(994799ec8679885c2b8e75f5da1b82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_B_Color1.fbx using Guid(994799ec8679885c2b8e75f5da1b82cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d848dd4bab3bfa381312751312f8025') in 0.013819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_4_C_Color1.fbx
+  artifactKey: Guid(616cdb931ea2d8f728945593358cb618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_4_C_Color1.fbx using Guid(616cdb931ea2d8f728945593358cb618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c7ffb60d024bdee4a5b2bf2a87374c5') in 0.010133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_E_Color1.fbx
+  artifactKey: Guid(adf82d8e2312fb42c8e55943ec46c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_E_Color1.fbx using Guid(adf82d8e2312fb42c8e55943ec46c393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b15fd321d5afdcd346db8049ff118923') in 0.016348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_E_Color1.fbx
+  artifactKey: Guid(3255b14020b5bb4dd80a5c545cdb2771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_E_Color1.fbx using Guid(3255b14020b5bb4dd80a5c545cdb2771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4625115d3925e3dbb071d5c946ac9c9e') in 0.013154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_F_Color1.fbx
+  artifactKey: Guid(5404e19cf217377c4866cdfafea72cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_F_Color1.fbx using Guid(5404e19cf217377c4866cdfafea72cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b61ffe5e637b219900917932c59cf219') in 0.012321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_E_Color1.fbx
+  artifactKey: Guid(833d141caa4c0814c9268c6bf1dbb43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_E_Color1.fbx using Guid(833d141caa4c0814c9268c6bf1dbb43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98845e5ad227a3b7e3c8cc220c4e52ce') in 0.010411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_B_Singlesided_Color1.fbx
+  artifactKey: Guid(13744dbd5a59a7977b5b1d9f18d74062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_B_Singlesided_Color1.fbx using Guid(13744dbd5a59a7977b5b1d9f18d74062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f849ef60a5fa8b90396f9e3ffb66de93') in 0.012850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_A_Color1.fbx
+  artifactKey: Guid(e49ed92989912063fbb08748089c80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_A_Color1.fbx using Guid(e49ed92989912063fbb08748089c80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9430e3baa7ecebcb5aa51ac6e346cbd5') in 0.015784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_D_Color1.fbx
+  artifactKey: Guid(9cf799810e2163c78a101389848d66b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_D_Color1.fbx using Guid(9cf799810e2163c78a101389848d66b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c417f2e3066314b56e210f235cb39229') in 0.013175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_C_Color1.fbx
+  artifactKey: Guid(fbb509f555a3ae2f2b552e68a98df038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_C_Color1.fbx using Guid(fbb509f555a3ae2f2b552e68a98df038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de1202cc93e1385f0b10f5233368b9e3') in 0.016818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_B_Color1.fbx
+  artifactKey: Guid(a2038f05b8fabd520a51bc6472232771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_B_Color1.fbx using Guid(a2038f05b8fabd520a51bc6472232771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c38f88880c88061b85af1d87991eb47e') in 0.009810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_D_Singlesided_Color1.fbx
+  artifactKey: Guid(5988d21ab59d2396195929bcbee003e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_D_Singlesided_Color1.fbx using Guid(5988d21ab59d2396195929bcbee003e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '030c9d28f6b23023ed755e5deb772762') in 0.012864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_G_Color1.fbx
+  artifactKey: Guid(ee956fdfd043f295b8b88099aba35438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_1_G_Color1.fbx using Guid(ee956fdfd043f295b8b88099aba35438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4eb9975a5e54f60a8093357adcfbfa86') in 0.015792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_A_Color1.fbx
+  artifactKey: Guid(d943f586d7b2d0c1d952f5a995f0291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_A_Color1.fbx using Guid(d943f586d7b2d0c1d952f5a995f0291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e96a83973eac4287729be5cf7917cd9') in 0.016617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_C_Color1.fbx
+  artifactKey: Guid(206c2c58933120630a411105e25886db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_C_Color1.fbx using Guid(206c2c58933120630a411105e25886db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dab2b1dca785a4ea9af7d028efc96c4c') in 0.025815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_D_Color1.fbx
+  artifactKey: Guid(31fbe1914fee6373799a1fa75a71b4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_D_Color1.fbx using Guid(31fbe1914fee6373799a1fa75a71b4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bed9bc7a553f93074cd8612800cbd93') in 0.013270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_B_Color1.fbx
+  artifactKey: Guid(f032e475b2d95ee89bcca46d1d554adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_B_Color1.fbx using Guid(f032e475b2d95ee89bcca46d1d554adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb0d1ce5650d9aaec1f4b1be1e58f872') in 0.022517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_C_Color1.fbx
+  artifactKey: Guid(d072019b094d2a83e8bb258d07cde012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_C_Color1.fbx using Guid(d072019b094d2a83e8bb258d07cde012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b3f75a465a2eee6e974dc6983ab65a9') in 0.015939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_4_F_Color1.fbx
+  artifactKey: Guid(cbf8e3a779fe0b469ad6983a360c9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_4_F_Color1.fbx using Guid(cbf8e3a779fe0b469ad6983a360c9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '074ec26d8c0c5bcc6453d95846821160') in 0.017015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_P_Color1.fbx
+  artifactKey: Guid(b11530d36b57deb9abaa1e55e8047014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_P_Color1.fbx using Guid(b11530d36b57deb9abaa1e55e8047014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '660f732a3bf9b0656977850f9a55127b') in 0.014745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_I_Color1.fbx
+  artifactKey: Guid(2074312637f15937cbd3047f38ea5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_I_Color1.fbx using Guid(2074312637f15937cbd3047f38ea5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5021c4750cc3dff50e54d9d61aacee21') in 0.017812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_C_Singlesided_Color1.fbx
+  artifactKey: Guid(7e62f9e53f7840df4a21fd96d8cd9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_1_C_Singlesided_Color1.fbx using Guid(7e62f9e53f7840df4a21fd96d8cd9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51549d4f2928b5ebaffe6ecc6b22779a') in 0.018415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_C_Singlesided_Color1.fbx
+  artifactKey: Guid(756b90e2473f4b806965cd0d698f4692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_C_Singlesided_Color1.fbx using Guid(756b90e2473f4b806965cd0d698f4692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29c727291c5e03f48ab166075ae1832c') in 0.017883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_4_E_Color1.fbx
+  artifactKey: Guid(fe10773d3976cad7890ba721f0c8d211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_4_E_Color1.fbx using Guid(fe10773d3976cad7890ba721f0c8d211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14bc28ace4fa8051ac04a6711d3a8ce9') in 0.015984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_O_Color1.fbx
+  artifactKey: Guid(04d562d166b539c3fb6f7717a52c0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_1_O_Color1.fbx using Guid(04d562d166b539c3fb6f7717a52c0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc6606eb309696184d95170c829b5a2a') in 0.014060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_2_A_Color1.fbx
+  artifactKey: Guid(e157f498eb07001c6928d778b39719b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_2_A_Color1.fbx using Guid(e157f498eb07001c6928d778b39719b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c2ed90b535a4501d999a96afd16f699') in 0.015570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_A_Singlesided_Color1.fbx
+  artifactKey: Guid(6ba92a293af9a44b6af5b20fa2cc6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Grass_2_A_Singlesided_Color1.fbx using Guid(6ba92a293af9a44b6af5b20fa2cc6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f5412fbf6b73d4ed38932d5629e2194') in 0.016344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_3_A_Color1.fbx
+  artifactKey: Guid(7025d6fcc1c1d96798ef0404efa1d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_3_A_Color1.fbx using Guid(7025d6fcc1c1d96798ef0404efa1d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c225e08235c0c70034d74dfcb75cc508') in 0.015000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_A_Color1.fbx
+  artifactKey: Guid(51a333cc2c0fc9ce98a65113b761f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Bush_2_A_Color1.fbx using Guid(51a333cc2c0fc9ce98a65113b761f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3105c80d40cb7a6c25ba16e530204e94') in 0.021813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.269571 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_2_G_Color1.fbx
+  artifactKey: Guid(51ae468f2e709c74db2d582a8e3a061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_2_G_Color1.fbx using Guid(51ae468f2e709c74db2d582a8e3a061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30061bd86158854e4ce4a66338a2687e') in 0.015743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_M_Color1.fbx
+  artifactKey: Guid(ecd401dd85c1b17f387fa841ec503b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_M_Color1.fbx using Guid(ecd401dd85c1b17f387fa841ec503b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19da08b3d2aeeea8d57452257bcb5068') in 0.013748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_C_Color1.fbx
+  artifactKey: Guid(3df36ea25f1d8441e937a5e0b4f831db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_C_Color1.fbx using Guid(3df36ea25f1d8441e937a5e0b4f831db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40f1d2a62c0a18545b4b2b3f4bc66b0c') in 0.011919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_3_A_Color1.fbx
+  artifactKey: Guid(d4dbfd7822744802f97d8272ae307c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_3_A_Color1.fbx using Guid(d4dbfd7822744802f97d8272ae307c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65303fa8304df4ef7c01a94b87504cb3') in 0.015534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_O_Color1.fbx
+  artifactKey: Guid(7501da79f74890538a4ef7a4470e4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_O_Color1.fbx using Guid(7501da79f74890538a4ef7a4470e4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cc48e955c8c892ac7e86e974f75bc04') in 0.016913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_Bare_2_B_Color1.fbx
+  artifactKey: Guid(ecc31633589ada4fbba1e92a8d6d2102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_Bare_2_B_Color1.fbx using Guid(ecc31633589ada4fbba1e92a8d6d2102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecb7fc709463dc94bfebb512d309d146') in 0.016584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_Bare_1_A_Color1.fbx
+  artifactKey: Guid(a1d1aaa4f5054c36bb1cc5b45f0efdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_Bare_1_A_Color1.fbx using Guid(a1d1aaa4f5054c36bb1cc5b45f0efdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76372cfb6e2f39a879b04a8f03fa07d0') in 0.015538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_4_C_Color1.fbx
+  artifactKey: Guid(b14e356d31b9f95d1b5af95df4250930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_4_C_Color1.fbx using Guid(b14e356d31b9f95d1b5af95df4250930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f511726c474a85a6ec67d6a80954788b') in 0.011753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_Q_Color1.fbx
+  artifactKey: Guid(cd611b3b66af137718bf9194a11f8a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_Q_Color1.fbx using Guid(cd611b3b66af137718bf9194a11f8a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0204b951fdc6954ce188332aaa35e828') in 0.017052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_2_A_Color1.fbx
+  artifactKey: Guid(18e712be24f86827c9c8eb74c4f5365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_2_A_Color1.fbx using Guid(18e712be24f86827c9c8eb74c4f5365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30acc61df1374b424a7b8994fa28e19d') in 0.017164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_2_E_Color1.fbx
+  artifactKey: Guid(e4e5ce1b28608c7e29fa1da8fa782145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_2_E_Color1.fbx using Guid(e4e5ce1b28608c7e29fa1da8fa782145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '665f03f448f673efa7f44925696c7938') in 0.016025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_K_Color1.fbx
+  artifactKey: Guid(c11ab7158a9767849a6dfd0ac0234018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_K_Color1.fbx using Guid(c11ab7158a9767849a6dfd0ac0234018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ae7bfea9e66e404366fd410bea34874') in 0.025477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_D_Color1.fbx
+  artifactKey: Guid(d972016a3dd8584fe96de9921fd66d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_D_Color1.fbx using Guid(d972016a3dd8584fe96de9921fd66d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d15aa38855926f15675934fef492870') in 0.018916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_1_C_Color1.fbx
+  artifactKey: Guid(b668701957a7de2fe807b8e63ec98b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_1_C_Color1.fbx using Guid(b668701957a7de2fe807b8e63ec98b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35ab590f9666c4718fb74bf3975e27e9') in 0.015997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_4_A_Color1.fbx
+  artifactKey: Guid(1e81cebaa6a3c7b03b5e82fb5ed0935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_4_A_Color1.fbx using Guid(1e81cebaa6a3c7b03b5e82fb5ed0935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd57823696a0d9fd47439a1c9786ef928') in 0.015830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_B_Color1.fbx
+  artifactKey: Guid(577a0da0103780d7a88facd491fc285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_B_Color1.fbx using Guid(577a0da0103780d7a88facd491fc285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e382c7cf6b83da8dad28c222975402b2') in 0.016180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_L_Color1.fbx
+  artifactKey: Guid(1701bfd0f539bb6ffbf7988a03cadb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_L_Color1.fbx using Guid(1701bfd0f539bb6ffbf7988a03cadb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb58ef533e15fd21a1974f73f1dfcd2e') in 0.016377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_Bare_2_A_Color1.fbx
+  artifactKey: Guid(a859cbaafb06e04b3a0d0e05626ef3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_Bare_2_A_Color1.fbx using Guid(a859cbaafb06e04b3a0d0e05626ef3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b5d94ed47ca1e67f14babcaaf4e9fd3b') in 0.017440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_3_B_Color1.fbx
+  artifactKey: Guid(a8ff88d9e46073f9898a4cef9bc33c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Tree_3_B_Color1.fbx using Guid(a8ff88d9e46073f9898a4cef9bc33c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b044ca78c5fded2d0f28266a83abfe0b') in 0.018553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_A_Color1.fbx
+  artifactKey: Guid(44f4289645add799c969644047e33517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Tree assets/Rock_3_A_Color1.fbx using Guid(44f4289645add799c969644047e33517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf5c18247269c64082aeb8e7184965d8') in 0.017604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1989.961094 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(f474871be2388ea12b92a02a028edbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(f474871be2388ea12b92a02a028edbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+The tree Tree_4_B_Color1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+The tree Tree_Bare_1_A_Color1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree_3_C_Color1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad278444a03dbacf3020082c2015b146') in 0.030041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 12.438038 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/ChangaOne-Regular.ttf
+  artifactKey: Guid(332401859ba268954abf38710e3447d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/ChangaOne-Regular.ttf using Guid(332401859ba268954abf38710e3447d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab44ae92a90876280d5658ed4422ec83') in 0.041754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002817 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Good Times Rg.otf
+  artifactKey: Guid(a85ba084f61b8a67ca5d5ddddb91a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Good Times Rg.otf using Guid(a85ba084f61b8a67ca5d5ddddb91a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'baf302d389fbf055f53ee5461db9b405') in 0.010307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-Thin.otf
+  artifactKey: Guid(24e2ae2f964c4ea79874d17a273beda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-Thin.otf using Guid(24e2ae2f964c4ea79874d17a273beda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fff8d91200a04ec88a7f67c10a3f1e4e') in 0.013986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-Italic.ttf
+  artifactKey: Guid(4f417230d435d1d738d68f6029f31572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-Italic.ttf using Guid(4f417230d435d1d738d68f6029f31572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa22dfb202484457bcb409e1f4b4d99a') in 0.007404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-LightItalic.ttf
+  artifactKey: Guid(019057ca5684752f7ad7ae6f15f5db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-LightItalic.ttf using Guid(019057ca5684752f7ad7ae6f15f5db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28d7bada2e0c21685ea2f1a1f7c893ba') in 0.011251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-RegularItalic.otf
+  artifactKey: Guid(d0fa498ef013c582d9c535dfb738f1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-RegularItalic.otf using Guid(d0fa498ef013c582d9c535dfb738f1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03917ae36adb4c5ed2efa2a1160d27de') in 0.006729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Uni Sans Thin Italic.otf
+  artifactKey: Guid(9395cacee9bf02e9995861e97978cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Uni Sans Thin Italic.otf using Guid(9395cacee9bf02e9995861e97978cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea72ff35ce73cc3d9820fa45ee972d0e') in 0.008675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-SemiBold.otf
+  artifactKey: Guid(219beb0c34c33a90e9c317e60fe640f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-SemiBold.otf using Guid(219beb0c34c33a90e9c317e60fe640f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8105dac40ca74e6197b2a9c8cb4768c') in 0.007930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-Semibold.ttf
+  artifactKey: Guid(cacda6464ad3488a383f063dc3f36aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-Semibold.ttf using Guid(cacda6464ad3488a383f063dc3f36aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd9f2a3b9f099c9f709122922ccdf90d') in 0.010664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-BoldItalic.otf
+  artifactKey: Guid(f097895cdb71254498cb19ef6c8cf604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-BoldItalic.otf using Guid(f097895cdb71254498cb19ef6c8cf604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4f6c053614e10e0309e7514dff71437') in 0.006686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-SemiboldItalic.ttf
+  artifactKey: Guid(8750b1872ce7bf1f59175d52c05f1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-SemiboldItalic.ttf using Guid(8750b1872ce7bf1f59175d52c05f1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4df546dd7db87f008fd79797060f6577') in 0.010850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-MediumItalic.otf
+  artifactKey: Guid(def40611de991d852b0c2eeec268255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-MediumItalic.otf using Guid(def40611de991d852b0c2eeec268255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27d58c6874d083747e6298f9dca2630a') in 0.010624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-ExtraBold.ttf
+  artifactKey: Guid(f7ea9ac75514648018e2d0ea67cd742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/OpenSans-ExtraBold.ttf using Guid(f7ea9ac75514648018e2d0ea67cd742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0faf6174f5e0080112a98f49ba67760') in 0.007107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-LightItalic.otf
+  artifactKey: Guid(9bd5156f5736760ecbd5c268a0dbfff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-LightItalic.otf using Guid(9bd5156f5736760ecbd5c268a0dbfff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4765de79a94ea296806f37b87e053bf') in 0.007798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-ExtraBoldItalic.otf
+  artifactKey: Guid(df2ce25519900e3d2a636f210935f135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-ExtraBoldItalic.otf using Guid(df2ce25519900e3d2a636f210935f135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05db9222e5622858385275244bb3b0a9') in 0.006743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-ThinItalic.otf
+  artifactKey: Guid(55215e99c8a4e75c5a87618867f0c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-ThinItalic.otf using Guid(55215e99c8a4e75c5a87618867f0c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60d0b514bb6d373d0ff7b0fcfc64b7c7') in 0.007416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-Light.otf
+  artifactKey: Guid(3d6a908460030a71a8f55dcc9324b63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-Light.otf using Guid(3d6a908460030a71a8f55dcc9324b63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04d52801d203c83431b06c4a57e7a50d') in 0.006542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-Medium.otf
+  artifactKey: Guid(9d19f33500c289882974bbc62a0be7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Custom Fonts/Metropolis-Medium.otf using Guid(9d19f33500c289882974bbc62a0be7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07b0d6d64b7b78100ef255331b93a174') in 0.008397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.015119 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/ClubIcon.png
+  artifactKey: Guid(58879760b74633d5aa2bc5292a16cd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/ClubIcon.png using Guid(58879760b74633d5aa2bc5292a16cd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '597f3864977fa0984bf8c556b6b69032') in 0.007587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grass_placeholder.png
+  artifactKey: Guid(f4ecef36c96cfdc25877ad0c4c03790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grass_placeholder.png using Guid(f4ecef36c96cfdc25877ad0c4c03790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e888ff6fb01609e96a79a6766df94ceb') in 0.007335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grassmap.png
+  artifactKey: Guid(b8d442818e4a40db0827127237f5bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grassmap.png using Guid(b8d442818e4a40db0827127237f5bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f1399d6ed19090072f7fee1f8fc7fea') in 0.005980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/tree.png
+  artifactKey: Guid(8ccb9f7646b45ff31bbb910c307dc5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/tree.png using Guid(8ccb9f7646b45ff31bbb910c307dc5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b24e5e50dd79288f814dbcfe988fc748') in 0.007299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/golfball_texture_concept_2.png
+  artifactKey: Guid(e5adf20a7fe148750a34ec416e5ee584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/golfball_texture_concept_2.png using Guid(e5adf20a7fe148750a34ec416e5ee584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6909befe7f36d510eb190f9840a141e') in 0.015631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/golfBat.png
+  artifactKey: Guid(aa78c89d46382b273ab63226792cd290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/golfBat.png using Guid(aa78c89d46382b273ab63226792cd290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f088036cbb3f92a81a5cbdf10c93320') in 0.008500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grassmap_shorter.png
+  artifactKey: Guid(ff41832b2626cc9b9abd90a989ba8bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/grassmap_shorter.png using Guid(ff41832b2626cc9b9abd90a989ba8bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b03fcf6a7dd38dcbe5e4a0119162972') in 0.007242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/trees.png
+  artifactKey: Guid(e63888cde968f3ad695e038477111980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/trees.png using Guid(e63888cde968f3ad695e038477111980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef81970234fc2fa28c56c3a1664c2161') in 0.008581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/mountains.png
+  artifactKey: Guid(3778300c225df1849b254caa8decb18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/mountains.png using Guid(3778300c225df1849b254caa8decb18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '673abad240596e0dc7ea47c22f48ba22') in 0.005639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/robot_placeholder.png
+  artifactKey: Guid(2a112e33afda6cf49803b8e1adfb1f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Courses/Golf_Course/Assets/Materials/Textures/robot_placeholder.png using Guid(2a112e33afda6cf49803b8e1adfb1f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3dae18d2596ef517367be2597c5cfca') in 0.004817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 121.243372 seconds.
+  path: Assets/Scenes/Main_Game/Title Screen/Assets/Demo notice.png
+  artifactKey: Guid(46e56dcdb7d3defe3b103bb54c901c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Game/Title Screen/Assets/Demo notice.png using Guid(46e56dcdb7d3defe3b103bb54c901c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bb667a6c9857829fd7ff59ea71a9b89') in 0.009474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.637085 seconds.
+  path: Assets/Hand Painted Grass  Texture/Material/Gtass_normal.mat
+  artifactKey: Guid(ffa9f731b331c2e40a2d09ecab6118c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Grass  Texture/Material/Gtass_normal.mat using Guid(ffa9f731b331c2e40a2d09ecab6118c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+WARNING: RGB Compressed ETC2 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'd2518f10dd68c6c3e691a5e9f63260a9') in 0.233459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
