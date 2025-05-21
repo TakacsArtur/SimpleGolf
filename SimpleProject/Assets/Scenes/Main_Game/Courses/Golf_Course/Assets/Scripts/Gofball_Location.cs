@@ -82,8 +82,6 @@ public class Gofball_Location : MonoBehaviour
 
     public void BallHit()
     {
-        golfBallParticleEmitterCone.GetComponent<ParticleSystem>().Play();
-        golfBallParticleEmitterSphere.GetComponent<ParticleSystem>().Play();
         GetComponent<Rigidbody>().useGravity = true;
         Debug.Log("Ball hit");
         eventSystem.GetComponent<CameraControl>().showBallCamera();
